@@ -1,0 +1,8 @@
+// Syntax error on or just before line 3
+begin 
+   int ; ; 
+   int _zUrD ; 
+   { 
+      newline VrF 
+   } 
+end 

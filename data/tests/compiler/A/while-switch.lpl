@@ -1,0 +1,27 @@
+//666
+//77
+//88
+//88
+//
+begin
+   int i;
+   int y;
+
+   y = 666;
+   i = 7;
+   while (!(i <= 0))
+   {
+      switch (i) {
+         case 0:
+            y = 99;
+         case 3:
+            y = 88;
+         case 5:
+            y = 77;
+         default:
+            {}
+      }
+      println y;
+      i = i - 2;
+   }
+end

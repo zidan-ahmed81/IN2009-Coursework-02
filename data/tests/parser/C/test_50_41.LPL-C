@@ -1,0 +1,16 @@
+// test_50_41.LPL-C
+begin
+   newline; 
+   newline; 
+   newline; 
+   newline; 
+   {
+   }
+   return ; 
+end
+fun int [][][]_y(){
+}
+proc _c(){
+}
+proc _$f(){
+}

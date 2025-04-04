@@ -1,0 +1,39 @@
+//100
+//81
+//64
+//49
+//36
+//25
+//16
+//9
+//4
+//1
+//0
+//
+
+begin
+   int maybeSquare;
+
+   maybeSquare = 100;
+   while (0 <= maybeSquare) {
+      if (isSquare(maybeSquare)) {
+         println maybeSquare;
+      } else {}
+      maybeSquare = maybeSquare - 1;
+   }
+end
+
+fun int iSqrt(int x) {
+   int r;
+
+   r = x;
+   while (x < (r * r)) r = r - 1;
+   return r;
+}
+
+fun int isSquare(int x) {
+   int root;
+
+   root = iSqrt(x);
+   return x == (root * root);
+}

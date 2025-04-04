@@ -1,0 +1,30 @@
+//97
+//98
+//99
+//99
+//100
+//99
+//8
+//
+
+begin
+   println foo(2);
+end
+
+fun int foo(int x) {
+   println 99 - x;
+   if (x) {
+      return foo(x - 1) + bar(x - 1); // type error
+   } else {
+      return 2;
+   }
+}
+
+fun int bar(int[] zzz) {
+   println 99 + zzz; // type error
+   if (zzz) { // type error
+      return bar(zzz - 1); // type error
+   } else {
+      return 3;
+   }
+}

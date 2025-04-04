@@ -1,0 +1,10 @@
+// Syntax error on or just before line 7
+begin 
+   int _La4XmsP8I2yM ; 
+   int _0c ; 
+   { 
+      newline ; 
+   end 
+   { 
+   } 
+} 

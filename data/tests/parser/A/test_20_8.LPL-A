@@ -1,0 +1,11 @@
+// test_20_8.LPL-A
+begin
+   int oslbHkABV; 
+   int _Rl; 
+   int it; 
+   if (m)
+      newline; 
+   else 
+      {
+      }
+end

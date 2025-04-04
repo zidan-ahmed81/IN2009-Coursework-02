@@ -1,0 +1,8 @@
+// Syntax error on or just before line 5
+begin 
+   int F ; 
+   println 73 ; 
+end begin 
+   int F ; 
+   println 73 ; 
+end 

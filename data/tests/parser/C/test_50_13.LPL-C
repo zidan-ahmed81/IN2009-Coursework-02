@@ -1,0 +1,14 @@
+// test_50_13.LPL-C
+begin
+int LLszM95; 
+int bkQ; 
+   if (null == null)
+      println new int [3245867]; 
+   else 
+      return ; 
+   _oHZ(); 
+end
+fun int _L(){
+}
+fun int _W9md(){
+}

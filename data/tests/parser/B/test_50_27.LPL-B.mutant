@@ -1,0 +1,16 @@
+// Syntax error on or just before line 11
+begin 
+int _j ; 
+   newline ; 
+   { 
+   } 
+   return ; 
+   { 
+   } 
+end 
+fun int _O _Qm7V ) { 
+} 
+proc _KqV ( ) { 
+} 
+proc ( ( ) { 
+} 

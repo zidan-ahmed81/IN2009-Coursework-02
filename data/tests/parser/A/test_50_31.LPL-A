@@ -1,0 +1,17 @@
+// test_50_31.LPL-A
+begin
+   int dze8q0; 
+   int Nc; 
+   int pA4; 
+   int _rRbZXQ$vH; 
+   int UN_4; 
+   int PT; 
+   {
+      {
+      }
+   }
+   println 43850; 
+   while (19)
+      {
+      }
+end

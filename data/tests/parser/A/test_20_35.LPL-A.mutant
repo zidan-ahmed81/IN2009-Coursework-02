@@ -1,0 +1,10 @@
+// Syntax error on or just before line 10
+begin 
+   int _Y ; 
+   int uY ; 
+   newline ; 
+   newline ; 
+   { 
+   } 
+   print DY 
+end 

@@ -1,0 +1,6 @@
+// test_20_27.LPL-A
+begin
+   int _woQ; 
+   while (n)
+      newline; 
+end

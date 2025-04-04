@@ -1,0 +1,9 @@
+// test_20_45.LPL-C
+begin
+   switch(null){
+   default : 
+      print _8Vlr; 
+   }
+end
+proc _4k3r(){
+}

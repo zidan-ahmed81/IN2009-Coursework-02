@@ -1,0 +1,23 @@
+//101
+//123
+//9
+//
+
+begin
+   foo();
+   bar(1, 2, 3);
+   boo(9);
+end
+
+proc foo() {
+   println 101;
+}
+
+fun int bar(int a, int b, int c) {
+   print a; print b; println c;
+   return 13;
+}
+
+proc boo(int msg) {
+   println msg;
+}

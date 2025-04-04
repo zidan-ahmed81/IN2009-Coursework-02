@@ -1,0 +1,17 @@
+// test_50_30.LPL-B
+begin
+int _h; 
+int _R8EXNos$; 
+   if (k3zs)
+      newline; 
+   else 
+      newline; 
+end
+proc ADg(){
+   {
+   }
+   println 204; 
+}
+proc EFV(){
+   return ; 
+}

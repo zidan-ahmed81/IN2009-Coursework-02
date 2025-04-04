@@ -1,0 +1,21 @@
+// Syntax error on or just before line 4
+begin 
+   int K ; 
+   int _ZJs ; ; 
+   newline ; 
+   if ( wfeuo0 + 8 ) 
+      while ( d8ew ) 
+         newline ; 
+   else 
+      print 2701 ; 
+   { 
+   } 
+   newline ; 
+   newline ; 
+   { 
+   } 
+   { 
+   } 
+   { 
+   } 
+end 

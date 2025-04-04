@@ -1,0 +1,8 @@
+// Syntax error on or just before line 8
+begin 
+   if ( _uqq ) 
+      return 31 ; 
+   else 
+      return ; 
+end 
+end 

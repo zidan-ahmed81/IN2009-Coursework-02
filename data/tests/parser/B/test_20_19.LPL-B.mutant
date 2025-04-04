@@ -1,0 +1,9 @@
+// Syntax error on or just before line 7
+begin 
+   { 
+   } 
+end 
+proc _GI8lMOpo ( 
+proc _bj2rdlpq ( ) { 
+} ) { 
+} 

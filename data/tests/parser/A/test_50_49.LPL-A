@@ -1,0 +1,14 @@
+// test_50_49.LPL-A
+begin
+   int zfw; 
+   int _Tlif; 
+   while (40)
+      while (rrolj)
+         {
+         }
+   println 155 && _V; 
+   print 10; 
+   {
+   }
+   newline; 
+end

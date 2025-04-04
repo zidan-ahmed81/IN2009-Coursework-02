@@ -1,0 +1,17 @@
+//5100
+//
+
+begin
+   println fooble(0, 100);
+end
+
+fun int fooble(int x, int y) {
+   int z;
+
+   if (y < x) {
+      z = 100 * x;
+   } else {
+      return fooble(x + 1, y - 1);
+   }
+   return z;
+}

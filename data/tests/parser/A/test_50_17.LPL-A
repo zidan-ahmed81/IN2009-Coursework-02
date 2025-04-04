@@ -1,0 +1,11 @@
+// test_50_17.LPL-A
+begin
+   int K; 
+   int _39km; 
+   int s; 
+   int _$eDH; 
+   int _t5CIk7P; 
+   int _hZ; 
+   _xB = (82); 
+   printch 8; 
+end

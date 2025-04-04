@@ -1,0 +1,6 @@
+// test_10_30.LPL-B
+begin
+int __cZX; 
+int B; 
+   return ; 
+end

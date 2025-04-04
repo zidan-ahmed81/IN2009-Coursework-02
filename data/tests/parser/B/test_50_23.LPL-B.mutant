@@ -1,0 +1,21 @@
+// Syntax error on or just before line 14
+begin 
+int GHWSK ; 
+int _R2 ; 
+int U7Tq8 ; 
+int _o ; 
+   { 
+      newline ; 
+      { 
+      } 
+      return ; 
+   } 
+   { 
+      newline ; ; 
+   } 
+   return ; 
+end 
+proc Nfn ( ) { 
+} 
+fun int _t7Riwbm ( ) { 
+} 

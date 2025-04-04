@@ -1,0 +1,20 @@
+//32
+//
+
+begin
+   println myfun(5); // type error
+end
+
+fun int myfun(int p1, int unused) {
+   int x;
+   int y;
+
+   x = p1;
+   y = 1;
+   if (p1 == 0) {
+      x = y;
+   } else {
+      y = myfun(p1 - 1) + 3; // type error
+   }
+   return x + y;
+}

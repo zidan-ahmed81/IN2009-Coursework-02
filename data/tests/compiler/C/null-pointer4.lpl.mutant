@@ -1,0 +1,7 @@
+begin
+   int[][] A;
+
+   A = new int[5][][]; // type error
+   print A[0][0];
+   print 99;
+end

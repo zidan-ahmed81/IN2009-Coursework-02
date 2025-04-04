@@ -1,0 +1,10 @@
+// Syntax error on or just before line 8
+begin 
+   if ( _7y4Y9urL1gZKMVE ) 
+      newline ; 
+   else 
+      return ; 
+   return 
+end 
+proc _jNAMKcGV ( ) { 
+} 

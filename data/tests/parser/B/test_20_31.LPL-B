@@ -1,0 +1,7 @@
+// test_20_31.LPL-B
+begin
+int rNN; 
+   newline; 
+end
+fun int _po9(){
+}

@@ -1,0 +1,8 @@
+// Syntax error on or just before line 3
+begin 
+   _mj Xr ; 
+   int int ; 
+   int wKi ; 
+   { 
+   } 
+end 

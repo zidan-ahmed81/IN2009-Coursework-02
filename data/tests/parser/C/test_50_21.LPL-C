@@ -1,0 +1,13 @@
+// test_50_21.LPL-C
+begin
+int []j7r; 
+int _yw; 
+int L; 
+   if (_m)
+      newline; 
+   else 
+      newline; 
+end
+proc _0PJR(int _7$){
+   newline; 
+}

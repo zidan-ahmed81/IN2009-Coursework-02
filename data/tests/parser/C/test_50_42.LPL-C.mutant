@@ -1,0 +1,16 @@
+// Syntax error on or just before line 5
+begin 
+int [ ] Hu0 ; 
+int p ; 
+   return new int [ ] null * null ; 
+   { 
+   } 
+end 
+proc tNMLioMkouyO9newbA ( ) { 
+} 
+proc _Sy ( ) { 
+} 
+proc _t6H1 ( ) { 
+} 
+fun int _UsvQQ_ ( ) { 
+} 

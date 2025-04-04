@@ -1,0 +1,9 @@
+// test_20_38.LPL-A
+begin
+   int _LJp; 
+   newline; 
+   newline; 
+   while (2)
+      {
+      }
+end

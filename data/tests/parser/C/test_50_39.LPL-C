@@ -1,0 +1,22 @@
+// test_50_39.LPL-C
+begin
+int CDnyV; 
+   if (null)
+      if (null)
+         {
+         }
+      else 
+         if (null)
+            newline; 
+         else 
+            newline; 
+   else 
+      {
+      }
+   newline; 
+   return ; 
+end
+proc kg(){
+}
+fun int I(){
+}

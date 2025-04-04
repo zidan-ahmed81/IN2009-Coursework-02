@@ -1,0 +1,10 @@
+// Syntax error on or just before line 10
+begin 
+int _14MBCt8dl3 ; 
+int _vFI ; 
+   if ( null ) 
+      newline ; 
+   else 
+      { { 
+      } 
+end 

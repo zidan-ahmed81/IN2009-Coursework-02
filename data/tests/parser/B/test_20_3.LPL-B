@@ -1,0 +1,11 @@
+// test_20_3.LPL-B
+begin
+int _OVA6AwDr5kirQ; 
+   newline; 
+   return ; 
+   {
+   }
+   newline; 
+end
+proc Uhe(){
+}

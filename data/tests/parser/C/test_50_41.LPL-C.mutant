@@ -1,0 +1,16 @@
+// Syntax error on or just before line 3
+
+} 
+   newline ; 
+   newline ; 
+   newline ; 
+   newline ; 
+   { 
+   } 
+   return ; 
+end 
+fun int [ ] [ ] [ ] _y ( ) { 
+} 
+proc _c ( ) { begin 
+proc _$f ( ) { 
+} 

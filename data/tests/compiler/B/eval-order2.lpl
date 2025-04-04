@@ -1,0 +1,30 @@
+//97
+//98
+//99
+//99
+//100
+//99
+//8
+//
+
+begin
+   println foo(2);
+end
+
+fun int foo(int x) {
+   println 99 - x;
+   if (x) {
+      return foo(x - 1) + bar(x - 1);
+   } else {
+      return 2;
+   }
+}
+
+fun int bar(int zzz) {
+   println 99 + zzz;
+   if (zzz) {
+      return bar(zzz - 1);
+   } else {
+      return 3;
+   }
+}

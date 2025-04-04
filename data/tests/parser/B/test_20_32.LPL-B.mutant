@@ -1,0 +1,11 @@
+// Syntax error on or just before line 11
+begin 
+int yG ; 
+int a ; 
+   newline ; 
+   { 
+   } 
+end 
+proc ocTPE$$ ( ) { 
+} 
+} 

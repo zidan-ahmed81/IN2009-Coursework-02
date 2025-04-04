@@ -1,0 +1,18 @@
+// Syntax error on or just before line 14
+begin 
+int nv ; 
+int _YX ; 
+   { 
+   } 
+   print null ; 
+end 
+fun int [ ] _e7V ( int _hx , int z ) { 
+} 
+fun int [ ] [ ] Z ( int AyoL$c , int _1 ) { 
+int _8uENZor ; 
+int [ ] [ ] y5ksV32GNNPd3W ; 
+int lTEPzq lTEPzq ; 
+int _mk7 ; 
+   newline ; 
+   return ; 
+} 

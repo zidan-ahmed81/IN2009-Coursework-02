@@ -1,0 +1,4 @@
+// test_20_30.LPL-C
+begin
+int [][][]q1c; 
+end

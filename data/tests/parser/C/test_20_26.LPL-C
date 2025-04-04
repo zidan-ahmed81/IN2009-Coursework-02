@@ -1,0 +1,7 @@
+// test_20_26.LPL-C
+begin
+   return ; 
+   printch its && null; 
+end
+proc BR(){
+}

@@ -1,0 +1,45 @@
+// test_200_37.LPL-B
+begin
+int BqN7xIdL; 
+int bKbQw0; 
+int _Z5o; 
+int b; 
+int mYD; 
+int _B_m; 
+int _iaJ; 
+   _eOD = 174 <= !_KT; 
+   newline; 
+   printch  - 0 || !(Je(_WK5) + _2); 
+   {
+      return ; 
+      if (85)
+         {
+         }
+      else 
+         newline; 
+   }
+   if (9)
+      return ; 
+   else 
+      return ; 
+   {
+   }
+end
+proc _a(){
+}
+proc f(int _1A7Aj, int XZa5FtuRw7be){
+int _2; 
+   newline; 
+}
+proc _N4ZX(){
+}
+fun int _8(int _8n, int Hf){
+int _aXl; 
+   switch(Dt8aF){
+   default : 
+      switch(_OHr7x8AA5){
+      default : 
+         newline; 
+      }
+   }
+}

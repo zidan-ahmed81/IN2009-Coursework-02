@@ -1,0 +1,16 @@
+// test_50_15.LPL-B
+begin
+int _y; 
+int _sI; 
+int I$u1S; 
+int _$; 
+int HL4FSTt; 
+   println 237; 
+   newline; 
+   newline; 
+end
+proc _Vr(){
+int Pu_s; 
+   {
+   }
+}

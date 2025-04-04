@@ -1,0 +1,23 @@
+// Syntax error on or just before line 9
+begin 
+   { 
+      printch ( 8 - 5 ) < mQz ; 
+      println ! 249 ; 
+      while ( 6 ) 
+         newline ; 
+      { 
+         print ; 
+      } 
+      while ( ! 8 || ! _rot ) 
+         newline ; 
+      print _dh ; 
+      while ( 203201 ) 
+         { 
+         } 
+      { 
+      } 
+   } 
+   printch _xo ; 
+   { 
+   } 
+end 

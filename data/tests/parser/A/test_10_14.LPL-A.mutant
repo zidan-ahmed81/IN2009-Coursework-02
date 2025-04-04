@@ -1,0 +1,6 @@
+// Syntax error on or just before line 3
+
+   int DolnKd8 ; 
+   { 
+   } 
+end 

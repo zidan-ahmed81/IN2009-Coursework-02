@@ -1,0 +1,9 @@
+//6
+//
+
+begin
+   int x;
+
+   x = 0;
+   println 7 - (1 || (1/x));
+end

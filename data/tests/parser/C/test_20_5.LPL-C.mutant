@@ -1,0 +1,9 @@
+// Syntax error on or just before line 3
+begin 
+int [ ] ] Jdij ; 
+   newline ; 
+end 
+proc _sY9i ( ) { 
+} 
+proc a ( ) { 
+} 

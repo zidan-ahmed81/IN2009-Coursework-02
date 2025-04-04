@@ -1,0 +1,10 @@
+// Syntax error on or just before line 5
+begin 
+int _b ; 
+int ttUk ; 
+int int Ww ; 
+   { 
+   } 
+end 
+proc _A ( ) { 
+} 

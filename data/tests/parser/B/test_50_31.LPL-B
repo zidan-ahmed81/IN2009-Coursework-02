@@ -1,0 +1,15 @@
+// test_50_31.LPL-B
+begin
+   printch _MZ; 
+   newline; 
+   while (_8)
+      newline; 
+   newline; 
+   return ; 
+end
+fun int gSy(){
+}
+proc _d(){
+}
+proc leo(){
+}

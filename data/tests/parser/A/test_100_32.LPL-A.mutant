@@ -1,0 +1,34 @@
+// Syntax error on or just before line 14
+begin 
+   int _c ; 
+   int _hme5LquD4m3 ; 
+   int Uk ; 
+   int _a ; 
+   int U ; 
+   int C ; 
+   { 
+      { 
+         if ( _v ) 
+            { 
+               newline ; newline 
+         else 
+            println 8 ; 
+      } 
+      newline ; 
+      while ( 35 ) 
+         { 
+         } 
+      printch _EGP ; 
+      newline ; 
+      
+      } ; 
+      newline ; 
+      if ( z6W2Hp ) 
+         newline ; 
+      else 
+         { 
+         } 
+   } 
+   newline ; 
+   newline ; 
+end 

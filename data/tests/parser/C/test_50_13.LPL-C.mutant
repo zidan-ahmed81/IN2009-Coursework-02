@@ -1,0 +1,14 @@
+// Syntax error on or just before line 4
+begin 
+int LLszM95 ; 
+int ) ; 
+   if ( null == null ) 
+      println new int [ 3245867 ] ; 
+   else 
+      return ; 
+   _oHZ ( ) ; 
+end 
+fun int _L ( bkQ { 
+} 
+fun int _W9md ( ) { 
+} 

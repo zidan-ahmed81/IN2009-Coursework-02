@@ -1,0 +1,9 @@
+// test_20_31.LPL-A
+begin
+   int _6; 
+   int _88b; 
+   newline; 
+   printch 72126; 
+   {
+   }
+end

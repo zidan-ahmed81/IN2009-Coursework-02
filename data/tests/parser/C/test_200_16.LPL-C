@@ -1,0 +1,31 @@
+// test_200_16.LPL-C
+begin
+int []Q; 
+int A; 
+int _TWd9hK; 
+int [][]_CHFG3_Q6t; 
+int _eqgjX0; 
+int [][][][]MIS7xcU5t; 
+int []_CR6Fz$1L; 
+int []ni; 
+int _y6; 
+   print !(!_d6_ < 0) && (new int [926]); 
+   newline; 
+   println null; 
+   _keYIqzAf76quTt(); 
+end
+fun int xjQbDIe(int _F, int M, int _t5qY){
+   {
+   }
+   printch 004; 
+}
+proc r$JZ1r(int ML, int _B){
+int n; 
+   {
+      return ; 
+   }
+   {
+   }
+}
+proc _X(){
+}

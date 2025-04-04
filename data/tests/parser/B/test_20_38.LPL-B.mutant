@@ -1,0 +1,8 @@
+// Syntax error on or just before line 8
+begin 
+int _bdy ; 
+   { 
+   } 
+end 
+fun int _47k_Y ( ) { { 
+} 

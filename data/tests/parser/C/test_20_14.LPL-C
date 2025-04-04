@@ -1,0 +1,7 @@
+// test_20_14.LPL-C
+begin
+int []HD; 
+   return ; 
+end
+fun int sTOZO(){
+}

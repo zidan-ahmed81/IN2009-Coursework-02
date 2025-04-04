@@ -1,0 +1,8 @@
+// test_10_7.LPL-B
+begin
+   newline; 
+   {
+   }
+end
+proc Z8a(){
+}

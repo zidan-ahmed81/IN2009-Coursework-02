@@ -1,0 +1,9 @@
+// Syntax error on or just before line 6
+begin 
+   newline ; 
+   newline ; 
+   return ; 
+   println v v ; 
+end 
+proc B5 ( ) { 
+} 

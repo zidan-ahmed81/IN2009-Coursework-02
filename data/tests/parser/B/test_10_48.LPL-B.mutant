@@ -1,0 +1,6 @@
+// Syntax error on or just before line 2
+int 
+int _cc ; 
+begin _q_Q ; 
+   return ; 
+end 

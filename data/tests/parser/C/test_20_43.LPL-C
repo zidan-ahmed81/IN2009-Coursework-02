@@ -1,0 +1,15 @@
+// test_20_43.LPL-C
+begin
+int fO$6$hB; 
+   newline; 
+   if (null)
+      newline; 
+   else 
+      return ; 
+end
+proc _N0(){
+}
+proc _w(){
+}
+proc JVRNBB(){
+}

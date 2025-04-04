@@ -1,0 +1,6 @@
+// test_20_19.LPL-A
+begin
+   int _Aq; 
+   int l9; 
+   printch Gl$RG4t; 
+end

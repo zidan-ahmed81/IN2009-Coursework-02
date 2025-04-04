@@ -1,0 +1,9 @@
+// Syntax error on or just before line 5
+begin 
+   int sj1TmA ; 
+   int _Zf ; 
+   int FSZ ; ; 
+   int gJ ; 
+   int _ghy ; 
+   newline ; 
+end 

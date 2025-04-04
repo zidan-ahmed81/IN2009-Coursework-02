@@ -1,0 +1,8 @@
+// test_20_29.LPL-C
+begin
+   println null; 
+end
+fun int _1do(){
+}
+fun int _q(){
+}

@@ -1,0 +1,14 @@
+// Syntax error on or just before line 4
+begin 
+   int _cTf ; 
+   int sq5T newline 
+   int KT ; 
+   int PEcOF ; 
+   int LHcf__ ; 
+   ; ; 
+   { 
+   } 
+   newline ; 
+   printch CHz ; 
+   printch 7900 ; 
+end 

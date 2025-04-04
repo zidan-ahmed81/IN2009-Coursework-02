@@ -1,0 +1,7 @@
+// test_20_11.LPL-C
+begin
+int _V84; 
+int j3dmq; 
+   uc0cdh = null; 
+   newline; 
+end

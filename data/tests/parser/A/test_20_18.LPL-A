@@ -1,0 +1,7 @@
+// test_20_18.LPL-A
+begin
+   int U9N_; 
+   int gC; 
+   int hn; 
+   newline; 
+end

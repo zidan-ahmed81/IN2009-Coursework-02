@@ -1,0 +1,8 @@
+// Syntax error on or just before line 3
+begin 
+   int 4150 ; 
+   int p ; 
+   println UWeu ; 
+   printch _T0Z_9e ; 
+   newline ; 
+end 

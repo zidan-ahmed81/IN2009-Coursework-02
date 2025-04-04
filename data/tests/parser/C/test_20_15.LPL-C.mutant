@@ -1,0 +1,20 @@
+// Syntax error on or just before line 11
+begin 
+int YQwvtDcal3e ; 
+   if ( null ) 
+      switch ( OQ ) { 
+      default : 
+         newline ; 
+      } 
+   else 
+      return ; 
+end begin 
+int YQwvtDcal3e ; 
+   if ( null ) 
+      switch ( OQ ) { 
+      default : 
+         newline ; 
+      } 
+   else 
+      return ; 
+end 

@@ -1,0 +1,17 @@
+// Syntax error on or just before line 8
+begin 
+   int dze8q0 ; 
+   int Nc ; 
+   int pA4 ; 
+   int _rRbZXQ$vH ; 
+   int UN_4 ; 
+   int PT PT ; 
+   { 
+      { 
+      } 
+   } 
+   println 43850 ; 
+   while ( 19 ) 
+      { 
+      } 
+end 

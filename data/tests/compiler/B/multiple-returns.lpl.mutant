@@ -1,0 +1,36 @@
+//8
+//6
+//0
+//
+
+begin
+   println foo(0);
+   println bar(); // type error
+   println boo(0);
+end
+
+fun int foo(int x) {
+   if (x) {
+      return 9;
+   } else {
+      return 8;
+      return 7;
+   }
+   return 6;
+}
+
+fun int bar(int z) {
+   if (z) {
+   } else {
+      return 8;
+      return 7;
+   }
+   return 6;
+}
+
+fun int boo(int w) {
+   if (w) {
+      return 9;
+   } else {
+   }
+}

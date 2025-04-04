@@ -1,0 +1,29 @@
+// test_100_38.LPL-B
+begin
+int _Tv; 
+int _Ej; 
+int _qA8; 
+   _cU = 956; 
+   print eNYw; 
+   return ; 
+end
+proc _HEzc(){
+}
+fun int _GV(){
+}
+proc _eV(){
+   {
+   }
+   {
+   }
+}
+proc _iQebf(){
+}
+proc y(){
+}
+proc fa(){
+   return ; 
+   newline; 
+}
+proc _fT(){
+}

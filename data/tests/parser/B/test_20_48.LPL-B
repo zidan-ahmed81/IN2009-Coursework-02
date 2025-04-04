@@ -1,0 +1,7 @@
+// test_20_48.LPL-B
+begin
+   if (_uqq)
+      return 31; 
+   else 
+      return ; 
+end

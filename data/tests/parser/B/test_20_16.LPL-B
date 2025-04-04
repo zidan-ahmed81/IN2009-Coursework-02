@@ -1,0 +1,10 @@
+// test_20_16.LPL-B
+begin
+int zn; 
+   return ; 
+   return ; 
+end
+proc _Nw4(){
+}
+fun int f(){
+}

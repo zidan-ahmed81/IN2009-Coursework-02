@@ -1,0 +1,21 @@
+//1
+//-2
+//
+
+begin
+   int n;
+
+   n = 4;
+   while (1 < postdec(3)) {
+      println n;
+   }
+   println n;
+end
+
+fun int postdec(int x) {
+   int temp;
+
+   temp = n;
+   n = n - x;
+   return temp;
+}

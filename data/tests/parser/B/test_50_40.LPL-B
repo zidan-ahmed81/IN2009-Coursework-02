@@ -1,0 +1,17 @@
+// test_50_40.LPL-B
+begin
+int _v6yc; 
+int _Eoj; 
+int _Xa; 
+   while (QX)
+      newline; 
+   while (Uz)
+      newline; 
+end
+proc njM(int i){
+   println _YsXO; 
+   {
+   }
+}
+proc _TN(){
+}

@@ -1,0 +1,33 @@
+// test_100_0.LPL-C
+begin
+int _sl_D9Ui; 
+int y6; 
+   printch 6208; 
+   {
+   }
+   return ; 
+end
+proc _hcRF3(){
+int _tX05MoN; 
+int Yd7aw; 
+   if ((null) + new int [2])
+      if (417)
+         newline; 
+      else 
+         newline; 
+   else 
+      println _d; 
+   newline; 
+   {
+   }
+}
+proc _cd(){
+}
+fun int _0H(){
+}
+fun int M8GYL(){
+}
+proc _h(){
+}
+proc _P(){
+}

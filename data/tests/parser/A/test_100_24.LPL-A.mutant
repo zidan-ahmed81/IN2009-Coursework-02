@@ -1,0 +1,31 @@
+// Syntax error on or just before line 20
+begin 
+   int _UJ ; 
+   { 
+      newline ; 
+      newline ; 
+      newline ; 
+      { 
+      } 
+   } 
+   switch ( i / ! AF ) { 
+   case - 338 : 
+      print JRLdPr ; 
+   case 687 : 
+      newline ; 
+   default : 
+      { 
+         newline ; 
+         print 9 ; 
+         print newline ; 
+         newline ; 
+      } 
+   } 
+   { 
+      _X = _Tc ; 
+      { 
+      } 
+      newline ; 
+   } 
+   464 ; 
+end 

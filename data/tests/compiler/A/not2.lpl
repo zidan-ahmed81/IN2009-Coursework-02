@@ -1,0 +1,8 @@
+//1
+//0
+//
+
+begin
+   println !(47 * 0);
+   println !(0 - 53);
+end

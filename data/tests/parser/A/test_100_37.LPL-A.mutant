@@ -1,0 +1,23 @@
+// Syntax error on or just before line 11
+begin 
+   int sJ$AES5Fl ; 
+   int r ; 
+   int _BPE ; 
+   int _z ; 
+   int v9 ; 
+   int FxxX ; 
+   int _xF ; 
+   int _6n ; 
+   while ( ! ( 2362494 ) 5 * _FZ5BBMSD0$ ) 
+      { 
+         newline ; 
+         { 
+         } 
+         { 
+         } 
+      } 
+   newline ; 
+   printch M ; 
+   newline ; 
+   print ! ; 
+end 

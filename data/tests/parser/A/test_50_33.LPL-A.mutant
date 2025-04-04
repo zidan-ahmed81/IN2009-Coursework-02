@@ -1,0 +1,8 @@
+// Syntax error on or just before line 2
+W 
+   int begin ; 
+   while ( ! 9 ) 
+      mAM = 89 ; 
+   _ZI = ( ( 35391 ) ) ; 
+   fbk = _3OXEuCe6_6 ; 
+end 

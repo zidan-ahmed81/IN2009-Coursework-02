@@ -1,0 +1,6 @@
+// test_20_21.LPL-C
+begin
+int [][]_ar37; 
+end
+proc _R(){
+}

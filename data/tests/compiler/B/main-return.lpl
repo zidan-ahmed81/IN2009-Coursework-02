@@ -1,0 +1,13 @@
+//123
+//
+
+begin
+   foo();
+   return;
+   println 321;
+end
+
+fun int foo() {
+   println 123;
+   return 999;
+}

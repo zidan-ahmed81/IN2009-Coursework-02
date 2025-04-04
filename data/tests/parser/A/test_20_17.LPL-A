@@ -1,0 +1,8 @@
+// test_20_17.LPL-A
+begin
+   int _M; 
+   while (464)
+      newline; 
+   {
+   }
+end

@@ -1,0 +1,12 @@
+// Syntax error on or just before line 8
+begin 
+int o ; 
+int rMjVn ; 
+int _zv1u8 ; 
+int _eCAx ; 
+   print new int [ Sc ] ; 
+   if ( ) 
+      return ; 
+   else 
+      return ; 
+end 

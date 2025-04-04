@@ -1,0 +1,8 @@
+// Syntax error on or just before line 2
+{ 
+int _3Gx$ ; 
+end 
+proc moD ( ) begin 
+} 
+proc _qt ( ) { 
+} 

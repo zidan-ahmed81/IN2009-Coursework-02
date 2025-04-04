@@ -1,0 +1,16 @@
+//1
+//2
+//3
+//6
+//
+
+begin
+   println foo(bar(1), bar(2), bar(3));
+end
+
+fun int bar(int x) {
+   println x;
+   return x;
+}
+
+fun int foo(int a, int b, int c) { return a + (b + c); }

@@ -1,0 +1,16 @@
+// test_50_17.LPL-B
+begin
+int _B; 
+int _1W; 
+   return _v < 7749; 
+   return ; 
+   while (5)
+      {
+      }
+end
+proc O(){
+}
+proc _rxr(){
+}
+proc iAL(){
+}

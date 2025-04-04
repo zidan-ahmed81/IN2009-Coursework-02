@@ -1,0 +1,8 @@
+// test_10_21.LPL-B
+begin
+   newline; 
+end
+proc TT(){
+}
+proc eP9_q(){
+}

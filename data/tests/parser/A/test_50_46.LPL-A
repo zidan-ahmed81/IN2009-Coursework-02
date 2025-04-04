@@ -1,0 +1,16 @@
+// test_50_46.LPL-A
+begin
+   int _34; 
+   int Sf; 
+   {
+      newline; 
+   }
+   if (54743)
+      println m <= !48; 
+   else 
+      print 66; 
+   newline; 
+   newline; 
+   {
+   }
+end

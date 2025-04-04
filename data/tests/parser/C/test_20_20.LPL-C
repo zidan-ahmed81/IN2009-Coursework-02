@@ -1,0 +1,10 @@
+// test_20_20.LPL-C
+begin
+   return ; 
+end
+proc _T(){
+}
+proc _d(){
+}
+fun int []y(){
+}

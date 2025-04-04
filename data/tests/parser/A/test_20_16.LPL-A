@@ -1,0 +1,7 @@
+// test_20_16.LPL-A
+begin
+   int _o; 
+   int _BI; 
+   print 3672076; 
+   newline; 
+end

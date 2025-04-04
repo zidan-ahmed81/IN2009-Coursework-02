@@ -1,0 +1,9 @@
+// Syntax error on or just before line 3
+begin 
+   int _6 _88b 
+   int ; ; 
+   newline ; 
+   printch 72126 ; 
+   { 
+   } 
+end 

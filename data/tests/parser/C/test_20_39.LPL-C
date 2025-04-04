@@ -1,0 +1,12 @@
+// test_20_39.LPL-C
+begin
+   if (null)
+      return ; 
+   else 
+      return ; 
+   newline; 
+   {
+   }
+end
+proc bC(){
+}

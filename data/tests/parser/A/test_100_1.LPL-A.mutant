@@ -1,0 +1,17 @@
+// Syntax error on or just before line 13
+begin 
+   int v ; 
+   int _xgZ1 ; 
+   int _8b ; 
+   int _P ; 
+   int _KomQ ; 
+   int _Zb ; 
+   int _Fvl ; 
+   int _o ; 
+   int _2gNff ; 
+   newline ; 
+   print S + ( - 400 / / - 30 ) ; 
+   printch _H ; 
+   _H = 3 ; 
+   newline ; 
+end 

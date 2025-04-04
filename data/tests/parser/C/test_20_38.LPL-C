@@ -1,0 +1,10 @@
+// test_20_38.LPL-C
+begin
+   if (null)
+      _3C(); 
+   else 
+      return ; 
+   newline; 
+   {
+   }
+end

@@ -1,0 +1,16 @@
+// Syntax error on or just before line 13
+begin 
+int y ; 
+   if ( null ) 
+      { 
+      } 
+   else 
+      newline ; 
+   if ( 395777 ) 
+      return ; 
+   else 
+      return ; 
+   t ; 
+end 
+fun int return ( ) { 
+} 

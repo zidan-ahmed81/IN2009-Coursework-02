@@ -1,0 +1,7 @@
+// test_20_7.LPL-B
+begin
+int _Rv; 
+int _8; 
+   print 80; 
+   return ; 
+end

@@ -1,0 +1,10 @@
+// test_20_35.LPL-A
+begin
+   int _Y; 
+   int uY; 
+   newline; 
+   newline; 
+   {
+   }
+   print DY; 
+end

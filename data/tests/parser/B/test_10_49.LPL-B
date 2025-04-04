@@ -1,0 +1,6 @@
+// test_10_49.LPL-B
+begin
+   newline; 
+end
+proc _1(){
+}

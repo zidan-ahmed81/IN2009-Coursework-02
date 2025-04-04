@@ -1,0 +1,21 @@
+//1
+//4
+//5995
+//5998
+//
+
+begin
+   int[] a;
+   int i;
+
+   a = new int[2000];
+   i = 0;
+   while (i < 2000) {
+      a[i] = a + (i * 3); // type error
+      i = i + 1;
+   }
+   println a[0];
+   println a[1];
+   println a[1998];
+   println a[1999];
+end

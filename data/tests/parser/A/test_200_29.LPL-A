@@ -1,0 +1,53 @@
+// test_200_29.LPL-A
+begin
+   int l; 
+   int _AoR; 
+   int _m; 
+   int _P9$T1l; 
+   int nWf7; 
+   println  - 796 ==  - 01; 
+   {
+      newline; 
+      {
+         if (_ZU)
+            if (70284)
+               {
+               }
+            else 
+               newline; 
+         else 
+            print B; 
+         {
+         }
+         println _vOx; 
+         {
+         }
+         newline; 
+      }
+      {
+      }
+      while (9)
+         switch(92664){
+         default : 
+            newline; 
+         }
+      while ((_AV3))
+         {
+         }
+      if (174)
+         {
+         }
+      else 
+         newline; 
+      newline; 
+      {
+      }
+      {
+      }
+   }
+   newline; 
+   newline; 
+   while ((u + 166) &&  - 638699)
+      print !(802732253 < ZARUIDD4) * _2K; 
+   println 3; 
+end

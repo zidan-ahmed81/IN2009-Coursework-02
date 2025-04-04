@@ -1,0 +1,16 @@
+// Syntax error on or just before line 12
+begin 
+   while ( null ) 
+      newline ; 
+   println M ; 
+   if ( 52 ) 
+      { 
+      } 
+   else 
+      newline ; 
+end 
+end 
+fun int I ( ) { 
+} 
+proc _a ( ) { 
+} 

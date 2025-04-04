@@ -1,0 +1,9 @@
+// Syntax error on or just before line 4
+begin 
+int S ; 
+   switch switch ( null ) { 
+   default : 
+      return ; 
+   } 
+   printch null ; 
+end 

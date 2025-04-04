@@ -1,0 +1,10 @@
+// test_20_21.LPL-A
+begin
+   int _HoX; 
+   if (649)
+      {
+      }
+   else 
+      newline; 
+   newline; 
+end

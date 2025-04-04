@@ -1,0 +1,6 @@
+// test_20_49.LPL-A
+begin
+   int _RT48; 
+   printch 0 / _n; 
+   newline; 
+end

@@ -1,0 +1,12 @@
+// test_20_5.LPL-A
+begin
+   int vDr10; 
+   int lo; 
+   int _h_X; 
+   if (26)
+      {
+      }
+   else 
+      newline; 
+   newline; 
+end

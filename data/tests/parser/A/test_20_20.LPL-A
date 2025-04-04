@@ -1,0 +1,6 @@
+// test_20_20.LPL-A
+begin
+   int _j; 
+   int j; 
+   println !84293325 || 3; 
+end

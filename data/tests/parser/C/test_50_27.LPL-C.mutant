@@ -1,0 +1,15 @@
+// Syntax error on or just before line 11
+begin 
+int VgPRlDt ; 
+int g ; 
+end 
+proc H1 ( ) { 
+} 
+fun int TWpdt3 ( ) { 
+   switch ( null ) { 
+   default 
+      return ; 
+   } 
+} 
+proc _q ( ) { 
+} 

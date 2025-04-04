@@ -1,0 +1,11 @@
+// test_50_10.LPL-C
+begin
+int aJ1B; 
+int f; 
+int NDMVmEB; 
+   while (!0)
+      print null; 
+   printch 76; 
+end
+proc _1Rvg(){
+}

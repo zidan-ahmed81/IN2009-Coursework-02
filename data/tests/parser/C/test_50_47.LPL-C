@@ -1,0 +1,16 @@
+// test_50_47.LPL-C
+begin
+int []P4lsg; 
+   println 673; 
+   if (null)
+      {
+      }
+   else 
+      return ; 
+end
+proc T1n(){
+}
+proc m(){
+}
+fun int y3(){
+}

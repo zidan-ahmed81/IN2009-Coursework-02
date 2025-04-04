@@ -1,0 +1,10 @@
+// Syntax error on or just before line 9
+begin 
+int X_ ; 
+int _t ; 
+   return ; 
+   { 
+   } 
+end 
+proc ( ) { 
+} 

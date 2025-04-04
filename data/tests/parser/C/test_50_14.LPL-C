@@ -1,0 +1,19 @@
+// test_50_14.LPL-C
+begin
+int _x; 
+int _i0Zf; 
+int dejIITUU; 
+   return new int [null] == null; 
+   if (null)
+      {
+      }
+   else 
+      {
+      }
+   return ; 
+   return ; 
+end
+proc _HhY(){
+}
+proc _cXX(){
+}

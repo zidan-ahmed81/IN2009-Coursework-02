@@ -1,0 +1,49 @@
+//11
+//13
+//3
+//11
+//13
+//-1
+//11
+//13
+//2
+//11
+//13
+//0
+//11
+//13
+//1
+//11
+//13
+//1
+//11
+//13
+//0
+//11
+//13
+//1
+//11
+//1
+//
+
+begin
+   println foo() + bar();
+   println foo() - bar();
+   println foo() * bar();
+   println foo() / bar();
+   println foo() < bar(7); // type error
+   println foo() <= bar();
+   println foo() == bar();
+   println foo() && bar();
+   println foo() || bar();
+end
+
+fun int foo() {
+   println 11;
+   return 1;
+}
+
+fun int bar() {
+   println 13;
+   return 2;
+}

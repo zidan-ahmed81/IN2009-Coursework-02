@@ -1,0 +1,15 @@
+// Syntax error on or just before line 4
+begin 
+int [ ] [ ] _a 
+int JwcNI ; 
+   newline ; 
+   if ( null ) 
+      return ; 
+   else 
+      newline ; 
+   while ( 191 ) 
+      printch 460 ; 
+   M = _Y ; 
+   { 
+   } 
+end 

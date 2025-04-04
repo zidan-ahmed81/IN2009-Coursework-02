@@ -1,0 +1,10 @@
+// test_20_23.LPL-A
+begin
+   int _bKOjo; 
+   {
+   }
+   print _AD; 
+   print _ZpAGr; 
+   {
+   }
+end

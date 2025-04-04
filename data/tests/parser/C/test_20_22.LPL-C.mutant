@@ -1,0 +1,10 @@
+// Syntax error on or just before line 3
+begin 
+   while ( ( ) 
+      { 
+      } 
+end 
+proc d4ToeqI ( ) { 
+} 
+proc _P null ) { 
+} 

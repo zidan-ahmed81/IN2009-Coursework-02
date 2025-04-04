@@ -1,0 +1,10 @@
+// Syntax error on or just before line 9
+begin 
+   { 
+   } 
+   { 
+   } 
+end 
+proc _io73W ( ) { 
+} _io73W ( ) { 
+} 

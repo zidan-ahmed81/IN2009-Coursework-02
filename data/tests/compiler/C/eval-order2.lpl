@@ -1,0 +1,23 @@
+//7
+//5
+//7
+//13
+//
+
+begin
+   int[] a;
+
+   a = new int[3];
+   a[foo()] = bar();
+   println a[foo()];
+end
+
+fun int foo() {
+   println 7;
+   return 1;
+}
+
+fun int bar() {
+   println 5;
+   return 13;
+}

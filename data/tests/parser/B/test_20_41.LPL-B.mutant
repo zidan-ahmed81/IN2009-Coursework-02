@@ -1,0 +1,10 @@
+// Syntax error on or just before line 10
+begin 
+int SXEtE ; 
+int h2 ; 
+   { 
+   } 
+   return ; 
+end 
+proc _K ( ) 
+} 

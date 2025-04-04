@@ -1,0 +1,15 @@
+// test_20_30.LPL-A
+begin
+   while (_u8)
+      {
+      }
+   if (63777)
+      {
+      }
+   else 
+      {
+      }
+   newline; 
+   {
+   }
+end

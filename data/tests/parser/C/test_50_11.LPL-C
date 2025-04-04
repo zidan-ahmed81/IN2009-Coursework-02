@@ -1,0 +1,12 @@
+// test_50_11.LPL-C
+begin
+int [][]_mJX; 
+int KI; 
+   {
+      if (null - 322162)
+         println null; 
+      else 
+         newline; 
+      print null; 
+   }
+end

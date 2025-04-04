@@ -1,0 +1,18 @@
+//4
+//
+
+begin
+   int[] a;
+
+   a = new int[bar(foo(3))];
+   a[bar(foo(1))] = bar(foo(2));
+   println a[2];
+end
+
+fun int[] foo(int x) {
+   return 65; // type error
+}
+
+fun int bar(int[] a) {
+   return a.length;
+}

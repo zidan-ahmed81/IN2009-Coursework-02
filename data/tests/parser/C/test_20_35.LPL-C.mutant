@@ -1,0 +1,10 @@
+// Syntax error on or just before line 10
+begin 
+int v ; 
+end 
+fun int [ ] _U ( ) { 
+} 
+proc _E5LKqs ( ) { 
+} 
+proc i ( ) { { 
+} 

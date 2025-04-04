@@ -1,0 +1,15 @@
+// Syntax error on or just before line 8
+begin 
+   printch _MZ ; 
+   newline ; 
+   while ( _8 ) 
+      newline ; 
+   newline 
+   return ; 
+end 
+fun int gSy ( ) { 
+} 
+proc _d ( ) { 
+} 
+proc leo ( ) { 
+} 

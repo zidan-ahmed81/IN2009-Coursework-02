@@ -1,0 +1,15 @@
+// Syntax error on or just before line 14
+begin 
+int _n ; 
+   return ; 
+   return ; 
+   return ; 
+   { 
+   } 
+end 
+fun int [ ] _LE ( int _f6x , int D ) { 
+} 
+proc yErbx5we ( ) { { 
+} 
+proc H ( ) { 
+} 

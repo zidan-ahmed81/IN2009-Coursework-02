@@ -1,0 +1,13 @@
+// test_50_5.LPL-A
+begin
+   int _1l0Er; 
+   int _T; 
+   int fF; 
+   int _Sub6DO; 
+   int nTZc; 
+   int a; 
+   int _05Ynhub9; 
+   print P || 0; 
+   _IK = _ro; 
+   newline; 
+end

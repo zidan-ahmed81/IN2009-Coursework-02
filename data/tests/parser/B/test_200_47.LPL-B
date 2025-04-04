@@ -1,0 +1,40 @@
+// test_200_47.LPL-B
+begin
+int rc; 
+int E; 
+int Ynfv$S1; 
+int _J; 
+int Js2; 
+   printch 0 && _uL; 
+   Nv0 = (98 < 6) * 810689; 
+   if (_FJ)
+      {
+      }
+   else 
+      while (37)
+         printch 540277 < 792; 
+   print 29; 
+   {
+   }
+end
+fun int _em$R(int _Gs, int i, int _ROG4z8){
+int XjLufRMik; 
+int aAUqA; 
+int Cw; 
+   printch 5395278; 
+   {
+      printch _b_gIcdV; 
+   }
+   {
+   }
+}
+proc _QuMDCoi(){
+   return ; 
+}
+proc J(int _YS, int _N4){
+int Nu; 
+   return ; 
+   newline; 
+}
+proc HZEd(){
+}

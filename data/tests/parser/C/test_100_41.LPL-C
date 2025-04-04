@@ -1,0 +1,29 @@
+// test_100_41.LPL-C
+begin
+int []y; 
+int fq; 
+int c; 
+int Pi_; 
+int EYP; 
+   newline; 
+   {
+   }
+   println null; 
+   {
+   }
+end
+proc k(int VanaxIG){
+int y; 
+int I; 
+   _dK = 002487935; 
+   newline; 
+}
+fun int SF(){
+   if (null)
+      {
+      }
+   else 
+      newline; 
+}
+proc d(){
+}

@@ -1,0 +1,31 @@
+// Syntax error on or just before line 24
+begin 
+   int E ; 
+   int _HrwN ; 
+   int w ; 
+   switch ( - 10 - ( 2 ) ) { 
+   case - 348221 : 
+      if ( 186775324 ) 
+         printch _288 ; 
+      else 
+         newline ; 
+   default : 
+      { 
+         newline ; 
+      } 
+   } 
+   newline ; 
+   newline ; 
+   if ( _QR ) 
+      println 35 ; 
+   else 
+      if ( 68 ) 
+         newline 
+      else 
+         { 
+         } 
+   if ( fNhs ) 
+      newline ; 
+   else 
+      newline ; 
+end 

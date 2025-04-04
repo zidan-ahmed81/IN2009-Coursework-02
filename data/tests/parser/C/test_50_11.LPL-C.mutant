@@ -1,0 +1,12 @@
+// Syntax error on or just before line 3
+begin 
+int [ ] null _mJX ; 
+int KI ; 
+   { 
+      if ( null - 322162 ) 
+         println [ ] ; 
+      else 
+         newline ; 
+      print null ; 
+   } 
+end 

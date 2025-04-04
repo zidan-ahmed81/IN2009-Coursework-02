@@ -1,0 +1,18 @@
+// Syntax error on or just before line 3
+
+   int pwMF ; 
+   int _i_B5KoiF ; 
+   int O ; 
+   int Sf ; 
+   int no7 ; 
+   { 
+      { 
+         newline ; 
+      } 
+      { 
+         println 881 ; 
+      } 
+      newline ; 
+      newline ; 
+   } 
+end 

@@ -1,0 +1,8 @@
+// test_50_33.LPL-A
+begin
+   int W; 
+   while (!9)
+      mAM = 89; 
+   _ZI = ((35391)); 
+   fbk = _3OXEuCe6_6; 
+end

@@ -1,0 +1,21 @@
+//66
+//77
+//
+
+begin
+   int[] a;
+   int[] b;
+
+   a = new int[3][]; // type error
+   b = a;
+   a[2] = 99;
+   a[2] = foo();
+   println b[2];
+   println a[2];
+end
+
+fun int foo() {
+   a = new int[7];
+   a[2] = 77;
+   return 66;
+}

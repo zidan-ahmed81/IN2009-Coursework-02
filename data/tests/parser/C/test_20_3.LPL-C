@@ -1,0 +1,8 @@
+// test_20_3.LPL-C
+begin
+int _4fp; 
+   print null; 
+   return ; 
+end
+proc Ql(){
+}

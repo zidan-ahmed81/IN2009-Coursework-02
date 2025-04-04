@@ -1,0 +1,13 @@
+//5040
+//
+
+begin
+   println fac(7);
+end
+
+fun int fac(int n) {
+   if (n < 2)
+      return 1;
+   else
+      return n * fac(n - 1);
+}

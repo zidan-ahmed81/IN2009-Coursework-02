@@ -1,0 +1,16 @@
+// test_50_27.LPL-B
+begin
+int _j; 
+   newline; 
+   {
+   }
+   return ; 
+   {
+   }
+end
+fun int _O(){
+}
+proc _KqV(){
+}
+proc _Qm7V(){
+}

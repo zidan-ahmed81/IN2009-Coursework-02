@@ -1,0 +1,6 @@
+// Syntax error on or just before line 6
+begin 
+int cBNI2$tm4 ; 
+end 
+fun int _x ( ) 
+} 

@@ -1,0 +1,19 @@
+// test_50_19.LPL-B
+begin
+int _0Y; 
+int _T; 
+int F; 
+int mCm; 
+int O; 
+   {
+   }
+   {
+   }
+   return ; 
+   newline; 
+   return ; 
+end
+proc _D(){
+}
+proc _z(){
+}

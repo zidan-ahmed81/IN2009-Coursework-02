@@ -1,0 +1,25 @@
+// test_100_3.LPL-C
+begin
+int [][][]_1$5; 
+   printch  - 74140 < null; 
+   if (null)
+      return ; 
+   else 
+      while (null * _I)
+         while (null)
+            {
+            }
+   println 64 && null; 
+end
+proc _K(){
+}
+proc _f(){
+}
+fun int y(){
+}
+proc _9ixN(){
+}
+proc Q9(){
+}
+proc _b(){
+}

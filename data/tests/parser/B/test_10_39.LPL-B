@@ -1,0 +1,7 @@
+// test_10_39.LPL-B
+begin
+int IZ; 
+   return ; 
+end
+proc _AMuc(){
+}

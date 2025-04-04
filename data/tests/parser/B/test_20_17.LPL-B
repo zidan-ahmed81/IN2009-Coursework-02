@@ -1,0 +1,10 @@
+// test_20_17.LPL-B
+begin
+   switch(552){
+   case 832: 
+      return ; 
+   default : 
+      {
+      }
+   }
+end

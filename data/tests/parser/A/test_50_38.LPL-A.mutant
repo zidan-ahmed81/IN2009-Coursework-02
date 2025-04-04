@@ -1,0 +1,10 @@
+// Syntax error on or just before line 4
+begin 
+   int _PMB ; 
+   if ( ) 
+      printch B78 < - 321533807 ; 
+   else 
+      newline ; 
+   newline ; 
+   println E3B ; 
+end 

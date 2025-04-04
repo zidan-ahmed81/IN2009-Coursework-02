@@ -1,0 +1,6 @@
+// test_20_46.LPL-A
+begin
+   int _gL; 
+   int _kS; 
+   println 9; 
+end

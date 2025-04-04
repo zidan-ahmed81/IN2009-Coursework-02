@@ -1,0 +1,7 @@
+// test_10_3.LPL-A
+begin
+   while (A)
+      newline; 
+   {
+   }
+end

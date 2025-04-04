@@ -1,0 +1,6 @@
+// test_20_27.LPL-C
+begin
+int _kq; 
+int kGPRv; 
+   print null; 
+end

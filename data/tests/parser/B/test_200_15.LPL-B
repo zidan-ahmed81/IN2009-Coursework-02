@@ -1,0 +1,39 @@
+// test_200_15.LPL-B
+begin
+int Q32I; 
+int WepNS9; 
+int _9; 
+int Z; 
+   if (40)
+      return ; 
+   else 
+      println !(_Sm() == G) + 8; 
+   _q4OB = wOq(); 
+   newline; 
+   {
+   }
+   return ; 
+   {
+   }
+end
+fun int NC8tM4SDRA(int _FvvMPE_dFgVKLs){
+int dL8i; 
+   return ; 
+   newline; 
+}
+fun int Pyu4YifzPt(int _0){
+int _0; 
+int _tf7Fzj; 
+int Dd; 
+   print !56; 
+   newline; 
+}
+fun int _1(int EJ, int V){
+int gZ; 
+   while (gKN)
+      print 7125; 
+}
+fun int EV(){
+}
+proc _JuBT(){
+}

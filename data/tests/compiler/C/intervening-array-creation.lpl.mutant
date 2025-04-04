@@ -1,0 +1,48 @@
+//0
+//3
+//6
+//9
+//12
+//15
+//18
+//100
+//102
+//104
+//106
+//108
+//
+
+begin
+   int[] a;
+   int j;
+   int[] b;
+
+   a = new int[foo()];
+   j = 0;
+   while (a < 7) { // type error
+      a[j] = 3 * j;
+      j = j + 1;
+   }
+   j = 0;
+   while (j < 7) {
+      println a[j];
+      j = j + 1;
+   }
+   j = 0;
+   while (j < 5) {
+      println b[j];
+      j = j + 1;
+   }
+end
+
+fun int foo() {
+   int i;
+
+   b = new int[5];
+   i = 0;
+   while (i < 5) {
+      b[i] = 100 + (2 * i);
+      i = i + 1;
+   }
+   return 7;
+}

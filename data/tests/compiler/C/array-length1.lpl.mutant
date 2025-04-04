@@ -1,0 +1,9 @@
+//99
+//
+
+begin
+   int[] a;
+
+   a = new int[99];
+   println a[0].length; // type error
+end

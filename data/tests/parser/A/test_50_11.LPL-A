@@ -1,0 +1,17 @@
+// test_50_11.LPL-A
+begin
+   int _VsfF; 
+   int _dw10$o; 
+   int _CS$; 
+   int _p6EXGspXVh; 
+   if (D)
+      _R = a; 
+   else 
+      printch fJ776 == VfH8gpEeu0MxUK2_85UmafYePCUwoD; 
+   {
+      {
+      }
+   }
+   {
+   }
+end

@@ -1,0 +1,15 @@
+// Syntax error on or just before line 12
+begin 
+   int wodSqv4C ; 
+   int _q ; 
+   if ( ! _na7 < ( 8387 ) ) 
+      newline ; 
+   else 
+      while ( _G ) 
+         newline ; 
+   newline ; 
+   println 8679 
+      { 
+      } ; 
+   newline ; 
+end 

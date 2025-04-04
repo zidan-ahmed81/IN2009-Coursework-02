@@ -1,0 +1,5 @@
+// test_10_2.LPL-A
+begin
+   while (_Bu)
+      newline; 
+end

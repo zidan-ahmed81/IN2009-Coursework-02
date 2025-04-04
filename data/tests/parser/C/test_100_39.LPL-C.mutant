@@ -1,0 +1,28 @@
+// Syntax error on or just before line 21
+begin 
+int VG ; 
+int _BpQCit ; 
+int _l ; 
+   switch ( 24 ) { 
+   case 332 : 
+      return ; 
+   case 919 : 
+      { 
+      } 
+   default : 
+      switch ( null ) { 
+      case 382 : 
+         { 
+         } 
+      default : 
+         printch rrMFu ; 
+      } 
+   } 
+   println ( null ) { zC ; 
+end 
+proc I ( int _gOwi$STjm8adt , int adFGT ) { 
+   * 
+   } 
+} 
+proc n4 ( ) { 
+} 

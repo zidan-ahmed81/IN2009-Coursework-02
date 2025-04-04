@@ -1,0 +1,8 @@
+// test_10_36.LPL-B
+begin
+int _3V; 
+end
+proc ln(){
+}
+proc _r(){
+}

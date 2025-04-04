@@ -1,0 +1,10 @@
+// Syntax error on or just before line 6
+begin 
+   if ( null ) 
+      _3C ( ) ; 
+   else 
+      return return ; 
+   newline ; 
+   { 
+   } 
+end 

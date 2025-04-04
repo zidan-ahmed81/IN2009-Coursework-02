@@ -1,0 +1,10 @@
+// Syntax error on or just before line 10
+begin 
+   int WCWS4 ; 
+   newline ; 
+   { 
+   } 
+   { 
+   } 
+   { 
+end 

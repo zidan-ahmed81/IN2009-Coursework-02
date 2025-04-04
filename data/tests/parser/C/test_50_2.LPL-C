@@ -1,0 +1,12 @@
+// test_50_2.LPL-C
+begin
+int o; 
+int rMjVn; 
+int _zv1u8; 
+int _eCAx; 
+   print new int [Sc]; 
+   if (_Jl)
+      return ; 
+   else 
+      return ; 
+end

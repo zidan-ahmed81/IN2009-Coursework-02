@@ -1,0 +1,8 @@
+// test_20_37.LPL-A
+begin
+   while (_2h)
+      {
+      }
+   newline; 
+   print yRx; 
+end

@@ -1,0 +1,22 @@
+// Syntax error on or just before line 19
+begin 
+int CDnyV ; 
+   if ( null ) 
+      if ( null ) 
+         { 
+         } 
+      else 
+         if ( null ) 
+            newline ; 
+         else 
+            newline ; 
+   else 
+      { 
+      } 
+   newline ; 
+   return ; 
+end 
+proc proc kg ( ) { 
+} 
+fun int I ( ) { 
+} 

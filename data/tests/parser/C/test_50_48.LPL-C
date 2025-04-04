@@ -1,0 +1,15 @@
+// test_50_48.LPL-C
+begin
+int _mo_fLGU6WL; 
+int rZY; 
+   return ; 
+   print !Ce * null; 
+   return 7; 
+   _RE3(); 
+end
+proc _61(){
+}
+proc _$a$(){
+}
+proc _jU(){
+}

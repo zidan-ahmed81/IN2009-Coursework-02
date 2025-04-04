@@ -1,0 +1,7 @@
+// Syntax error on or just before line 6
+begin 
+int mQxdl ; 
+   return ; 
+end 
+proc ) ( g6 { 
+} 

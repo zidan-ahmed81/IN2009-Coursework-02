@@ -1,0 +1,7 @@
+// test_20_42.LPL-C
+begin
+   switch(new int [85]){
+   default : 
+      newline; 
+   }
+end

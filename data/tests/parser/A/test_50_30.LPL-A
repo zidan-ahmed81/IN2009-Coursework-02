@@ -1,0 +1,18 @@
+// test_50_30.LPL-A
+begin
+   int pwMF; 
+   int _i_B5KoiF; 
+   int O; 
+   int Sf; 
+   int no7; 
+   {
+      {
+         newline; 
+      }
+      {
+         println 881; 
+      }
+      newline; 
+      newline; 
+   }
+end

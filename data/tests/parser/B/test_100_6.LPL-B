@@ -1,0 +1,31 @@
+// test_100_6.LPL-B
+begin
+int _zcH; 
+   {
+      while (3)
+         newline; 
+      newline; 
+      return ; 
+   }
+   if (!0)
+      while (5517)
+         println 20151 || _YVjYggKLa; 
+   else 
+      if (588897)
+         newline; 
+      else 
+         return ; 
+   return ; 
+end
+fun int _w(){
+int nykgbbA; 
+   newline; 
+}
+proc h(){
+}
+proc qt(){
+}
+proc fy(){
+}
+proc _r(){
+}

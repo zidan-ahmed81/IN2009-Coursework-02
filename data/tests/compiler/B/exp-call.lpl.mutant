@@ -1,0 +1,26 @@
+//9
+//123
+//13
+//9
+//10
+//
+
+begin
+   println foo();
+   println bar(1, 3); // type error
+   println boo(foo());
+end
+
+fun int foo() {
+   return 9;
+}
+
+fun int bar(int a, int b, int c) {
+   print a; print b; println c;
+   return 13;
+}
+
+fun int boo(int msg) {
+   println msg;
+   return msg + 1;
+}

@@ -1,0 +1,21 @@
+// test_50_6.LPL-A
+begin
+   int bewZDfpn; 
+   int _4$; 
+   int q; 
+   eW = _a; 
+   switch(9){
+   case  - 349774: 
+      {
+      }
+   default : 
+      newline; 
+   }
+   newline; 
+   if (v_)
+      {
+      }
+   else 
+      {
+      }
+end

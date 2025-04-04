@@ -1,0 +1,7 @@
+// test_10_17.LPL-B
+begin
+int k; 
+   return ; 
+end
+proc u(){
+}

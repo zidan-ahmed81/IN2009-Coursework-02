@@ -1,0 +1,10 @@
+// test_20_32.LPL-B
+begin
+int yG; 
+int a; 
+   newline; 
+   {
+   }
+end
+proc ocTPE$$(){
+}

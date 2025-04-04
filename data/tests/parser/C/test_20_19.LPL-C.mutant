@@ -1,0 +1,7 @@
+// Syntax error on or just before line 6
+begin 
+int [ ] N ; 
+int jBxm6 ; 
+   return ; 
+proc _Tb ( ) { 
+} 

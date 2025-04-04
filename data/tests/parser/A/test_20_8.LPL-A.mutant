@@ -1,0 +1,11 @@
+// Syntax error on or just before line 6
+begin 
+   int oslbHkABV ; 
+   int _Rl ; 
+   int it ; 
+   if ( m ) ) 
+      newline ; 
+   else 
+      { 
+      } 
+end 

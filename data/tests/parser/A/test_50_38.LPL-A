@@ -1,0 +1,10 @@
+// test_50_38.LPL-A
+begin
+   int _PMB; 
+   if (! - 8387 *  - 8)
+      printch B78 <  - 321533807; 
+   else 
+      newline; 
+   newline; 
+   println E3B; 
+end

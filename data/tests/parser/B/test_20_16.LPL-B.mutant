@@ -1,0 +1,10 @@
+// Syntax error on or just before line 6
+begin 
+int zn ; 
+   return ; 
+end 
+   return ; 
+proc _Nw4 ( ) { 
+} 
+fun int f ( ) { 
+} 

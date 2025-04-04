@@ -1,0 +1,31 @@
+// test_100_6.LPL-A
+begin
+   int _Q; 
+   int _sZYV; 
+   int b; 
+   int _7; 
+   int _V; 
+   int _6; 
+   if (!2)
+      tE = _pIH9; 
+   else 
+      newline; 
+   newline; 
+   if (1619)
+      {
+      }
+   else 
+      {
+      }
+   while (I)
+      print _9253; 
+   {
+   }
+   newline; 
+   if (z)
+      printch 288; 
+   else 
+      {
+      }
+   newline; 
+end

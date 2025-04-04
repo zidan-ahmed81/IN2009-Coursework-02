@@ -1,0 +1,11 @@
+// Syntax error on or just before line 3
+begin 
+int ; 
+int f ; 
+int NDMVmEB ; 
+   while ( ! 0 ) 
+      print null ; 
+   printch 76 ; 
+end 
+proc _1Rvg ( ) { 
+} 

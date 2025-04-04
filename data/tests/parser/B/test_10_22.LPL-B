@@ -1,0 +1,7 @@
+// test_10_22.LPL-B
+begin
+   return ; 
+   return ; 
+end
+proc _Rko(){
+}

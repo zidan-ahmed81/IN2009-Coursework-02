@@ -1,0 +1,15 @@
+// Syntax error on or just before line 5
+begin 
+int _02k2c ; 
+int jmaB_ ; 
+   if 02470 ( ) 
+      if ( W ) 
+         newline ; 
+      else 
+         return ; 
+   else 
+      newline ; 
+end 
+proc e$FrBCk1 ( ) { 
+int W ; 
+} 

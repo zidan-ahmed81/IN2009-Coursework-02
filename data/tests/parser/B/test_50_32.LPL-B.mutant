@@ -1,0 +1,16 @@
+// Syntax error on or just before line 5
+begin 
+int KA3 ; 
+int Bgm ; 
+   switch ( _W < ! _I7AuN _I7AuN ) { 
+   case 1286256 : 
+      return ; 
+   case 1 : 
+      return ; 
+   default : 
+      newline ; 
+   } 
+   { 
+   } 
+   newline ; 
+end 

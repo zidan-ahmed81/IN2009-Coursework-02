@@ -1,0 +1,8 @@
+// test_20_7.LPL-A
+begin
+   int _OM; 
+   int _y; 
+   {
+   }
+   printch _t; 
+end

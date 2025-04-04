@@ -1,0 +1,6 @@
+// Syntax error on or just before line 6
+begin 
+   return ; 
+   return ; 
+   return 
+end 

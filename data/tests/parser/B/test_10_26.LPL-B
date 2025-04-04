@@ -1,0 +1,6 @@
+// test_10_26.LPL-B
+begin
+   return ; 
+   {
+   }
+end

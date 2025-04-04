@@ -1,0 +1,6 @@
+// test_20_13.LPL-C
+begin
+int []fJ; 
+end
+fun int _mvn(){
+}

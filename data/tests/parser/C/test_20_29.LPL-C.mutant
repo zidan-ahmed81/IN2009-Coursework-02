@@ -1,0 +1,8 @@
+// Syntax error on or just before line 3
+
+   println null begin ; 
+end 
+fun int _1do ( ) { 
+} 
+fun int _q ( ) { 
+} 

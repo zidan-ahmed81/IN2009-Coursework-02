@@ -1,0 +1,7 @@
+// test_10_47.LPL-B
+begin
+   return ; 
+   newline; 
+end
+proc _jLW(){
+}

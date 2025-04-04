@@ -1,0 +1,12 @@
+// test_50_45.LPL-C
+begin
+int O; 
+   print null && _cXURAbStThW4akFy9; 
+   printch null; 
+   return ; 
+end
+proc _KRd0$(int j, int _u0wr){
+   return ; 
+}
+proc u(){
+}

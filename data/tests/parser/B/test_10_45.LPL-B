@@ -1,0 +1,7 @@
+// test_10_45.LPL-B
+begin
+int mQxdl; 
+   return ; 
+end
+proc g6(){
+}

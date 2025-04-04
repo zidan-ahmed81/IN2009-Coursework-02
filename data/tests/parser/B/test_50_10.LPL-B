@@ -1,0 +1,14 @@
+// test_50_10.LPL-B
+begin
+int J; 
+   println 444412390; 
+   printch cb; 
+   if (! - 589600)
+      printch 72016; 
+   else 
+      printch _S; 
+   {
+   }
+end
+proc _x(){
+}

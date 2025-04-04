@@ -1,0 +1,16 @@
+// Syntax error on or just before line 15
+begin 
+int [ ] P4lsg ; 
+   println 673 ; 
+   if ( null ) 
+      { 
+      } 
+   else 
+      return ; 
+end 
+proc T1n ( ) { 
+} 
+proc m ( ) { 
+} 
+int y3 ( ) { 
+} 

@@ -1,0 +1,22 @@
+// Syntax error on or just before line 10
+begin 
+int a$xN ; 
+int _5 ; 
+   { 
+      println 293597 ; 
+      println null ; 
+   } 
+   println ( 204 && 38037 ) ; 
+   while ( BZqbm BZqbm ) 
+      return ; 
+   newline ; 
+   newline ; 
+end 
+fun int [ ] [ ] [ ] _a5 ( int _Kq ) { 
+int _Eo ; 
+   { 
+   } 
+   { 
+   } 
+   println _QF$KaFMzW ; 
+} 

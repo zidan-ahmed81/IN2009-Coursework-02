@@ -1,0 +1,14 @@
+// test_50_12.LPL-A
+begin
+   int _cTf; 
+   int sq5T; 
+   int KT; 
+   int PEcOF; 
+   int LHcf__; 
+   newline; 
+   {
+   }
+   newline; 
+   printch CHz; 
+   printch 7900; 
+end

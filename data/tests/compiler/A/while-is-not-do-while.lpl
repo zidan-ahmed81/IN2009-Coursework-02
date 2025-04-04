@@ -1,0 +1,12 @@
+//77
+//
+begin
+   int i;
+
+   i = 0;
+   println 77;
+   while (0 < i) {
+      println 99;
+      i = i - 1;
+   }
+end

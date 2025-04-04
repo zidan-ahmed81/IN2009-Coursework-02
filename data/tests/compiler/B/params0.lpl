@@ -1,0 +1,18 @@
+//15
+//
+
+begin
+   int myglobal;
+
+   myglobal = 5;
+   println myfun();
+end
+
+fun int myfun() {
+   if (myglobal == 0) {
+      return 0;
+   } else {
+      myglobal = myglobal - 1;
+      return myfun() + 3;
+   }
+}

@@ -1,0 +1,7 @@
+// Syntax error on or just before line 6
+begin 
+   printch null ; 
+   return ; 
+end 
+fun int [ ] _e_KG ( { ) 
+} 

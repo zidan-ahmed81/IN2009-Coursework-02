@@ -1,0 +1,9 @@
+// test_20_30.LPL-B
+begin
+   newline; 
+   newline; 
+   return ; 
+   println v; 
+end
+proc B5(){
+}

@@ -1,0 +1,11 @@
+// Syntax error on or just before line 11
+begin 
+   int _h ; 
+   int _S ; 
+   if ( 6870094 ) 
+      newline ; 
+   else 
+      { 
+      } 
+end 
+end 

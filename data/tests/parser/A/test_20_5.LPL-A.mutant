@@ -1,0 +1,12 @@
+// Syntax error on or just before line 3
+begin 
+   int vDr10 vDr10 ; 
+   int lo ; 
+   int _h_X ; 
+   if ( 26 ) 
+      { 
+      } 
+   else 
+      newline ; 
+   newline ; 
+end 

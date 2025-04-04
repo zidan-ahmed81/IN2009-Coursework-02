@@ -1,0 +1,21 @@
+// test_50_40.LPL-C
+begin
+int _Mf; 
+int _7; 
+int _4lc; 
+int _zrVqMVOpWY; 
+int Q; 
+   while (__)
+      if (null)
+         return ; 
+      else 
+         newline; 
+   {
+   }
+   newline; 
+   return ; 
+end
+proc J(){
+}
+proc B(){
+}

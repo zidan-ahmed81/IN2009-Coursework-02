@@ -1,0 +1,8 @@
+// test_20_18.LPL-C
+begin
+int mvj0; 
+int _5r; 
+   while (null)
+      newline; 
+   return ; 
+end

@@ -1,0 +1,31 @@
+// Syntax error on or just before line 11
+begin 
+int [ ] YCm ; 
+int [ ] _I2TP ; 
+   return ; 
+   newline ; 
+   newline ; 
+   { 
+      return ; 
+   } 
+   print null null ; 
+   return ; 
+end 
+fun int [ ] [ ] [ ] Q ( int _MglOk0J , int _K4g ) { 
+int [ ] [ ] _oY4YuZ5J_L1mvF_7 ; 
+   H ( ) ; 
+   return null - 89997 ; 
+   r1M ( ) ; 
+   while ( null - ( X ) ) 
+      newline ; 
+} 
+fun int [ ] [ ] Q ( int iM5V , int FcG ) { 
+int _V7EyCxXIqdiAG ; 
+int _Tr ; 
+} 
+fun int _HPIWDS8aTQZqtTn ( ) { 
+} 
+proc _O ( ) { 
+} 
+proc _gEDB0 ( ) { 
+} 

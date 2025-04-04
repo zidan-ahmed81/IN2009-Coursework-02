@@ -1,0 +1,16 @@
+// test_50_36.LPL-A
+begin
+   int _r; 
+   int _cKJa; 
+   int _ceZdyG9p; 
+   int Le; 
+   int _AO3; 
+   if ( - 7397 * 257)
+      _qgAp = 4; 
+   else 
+      newline; 
+   print 3; 
+   newline; 
+   {
+   }
+end

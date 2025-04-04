@@ -1,0 +1,7 @@
+// test_20_42.LPL-A
+begin
+   int LH6kQ5uHvs; 
+   printch _yz; 
+   while (974)
+      newline; 
+end

@@ -1,0 +1,7 @@
+// test_20_9.LPL-B
+begin
+int _8k; 
+int _4nM; 
+   printch 855727; 
+   return ; 
+end

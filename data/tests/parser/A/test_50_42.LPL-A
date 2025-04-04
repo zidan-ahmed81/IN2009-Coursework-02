@@ -1,0 +1,14 @@
+// test_50_42.LPL-A
+begin
+   int A6X64tTQ98Uoz1I5f; 
+   int _cLpuF; 
+   int tC; 
+   int _woYABP; 
+   newline; 
+   print 49818807; 
+   if (_a)
+      println Wuh; 
+   else 
+      newline; 
+   newline; 
+end

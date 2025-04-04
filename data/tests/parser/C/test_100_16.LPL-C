@@ -1,0 +1,22 @@
+// test_100_16.LPL-C
+begin
+int []e; 
+int _HJ; 
+   _A(); 
+   print new int [89860] - 6797046; 
+   print 6; 
+   newline; 
+   print x2; 
+   return ; 
+end
+proc _hur(){
+}
+proc _y(){
+}
+fun int I(int _ZbqyN){
+int wjC; 
+}
+proc _2bnmM(){
+   {
+   }
+}

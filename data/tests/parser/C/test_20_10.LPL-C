@@ -1,0 +1,9 @@
+// test_20_10.LPL-C
+begin
+int _s6_ZFT; 
+   print null; 
+   {
+   }
+end
+proc _Z5S(){
+}

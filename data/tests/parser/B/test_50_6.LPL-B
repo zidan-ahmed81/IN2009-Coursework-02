@@ -1,0 +1,13 @@
+// test_50_6.LPL-B
+begin
+int hq; 
+int T4; 
+int o; 
+   print 33954552; 
+   printch _ff; 
+   println 3; 
+end
+proc d(){
+}
+proc _qddJqEHxG(){
+}

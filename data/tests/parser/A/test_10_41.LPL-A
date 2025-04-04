@@ -1,0 +1,5 @@
+// test_10_41.LPL-A
+begin
+   print _1M; 
+   newline; 
+end

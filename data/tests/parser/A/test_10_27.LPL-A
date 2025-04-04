@@ -1,0 +1,6 @@
+// test_10_27.LPL-A
+begin
+   int mR; 
+   newline; 
+   newline; 
+end

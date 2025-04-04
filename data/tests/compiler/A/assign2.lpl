@@ -1,0 +1,14 @@
+//73
+//19
+//
+
+begin
+   int myvar;
+   int highLow;
+
+   myvar = 78;
+   highLow = (highLow * 99) + (73 + highLow);
+   println highLow;
+   myvar = 19;
+   println myvar;
+end

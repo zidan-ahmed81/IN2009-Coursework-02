@@ -1,0 +1,33 @@
+// Syntax error on or just before line 22
+begin 
+int _a4JEBlXr ; 
+int k ; 
+int veN ; 
+   switch ( _Ib ) { 
+   case 57 : 
+      { 
+      } 
+   case 6 : 
+      return ; 
+   case 22019025 : 
+      newline ; 
+   case 5 : 
+      return ; 
+   default : 
+      if ( - 20 <= _t3iw ) 
+         while ( 14 ) 
+            return 4 ; 
+      else 
+         if ( r ) 
+            printch ; 
+         else 
+            { 
+            } 
+   } 
+   return ; 
+   { 
+   } 
+   { 
+   } 
+   newline ; 
+end 

@@ -1,0 +1,44 @@
+// test_200_24.LPL-B
+begin
+int _c; 
+int _P7; 
+   {
+      _1H(); 
+      NUSoaxr(_p, 382, 591, 21); 
+      printch D; 
+   }
+   return ; 
+   println _c; 
+   newline; 
+end
+proc LD5$Su(int _$, int _IAdVQ2){
+int i; 
+int aU9f3L; 
+int _5D; 
+int _Td; 
+int l_8QA; 
+   if (!_uop < KLfg4xyvJm0eLp)
+      _7 = 48; 
+   else 
+      if (_HFDm)
+         newline; 
+      else 
+         ZQ(); 
+   newline; 
+}
+proc oKU3PiN(int L){
+int _6zfO; 
+int _H; 
+int _z_; 
+   println _q1l; 
+   if (a)
+      {
+      }
+   else 
+      {
+      }
+   return ; 
+   newline; 
+}
+proc _$M8zCc1(){
+}

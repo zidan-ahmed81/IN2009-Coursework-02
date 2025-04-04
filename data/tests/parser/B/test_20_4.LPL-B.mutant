@@ -1,0 +1,10 @@
+// Syntax error on or just before line 4
+begin 
+int h ; 
+T ; 
+int _kqDRI ; 
+   { 
+   } 
+end 
+fun int z ( ) { 
+} 

@@ -1,0 +1,6 @@
+// test_10_16.LPL-A
+begin
+   int _Ox; 
+   int _fnDi80; 
+   int _ZWZ; 
+end

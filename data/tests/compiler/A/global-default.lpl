@@ -1,0 +1,8 @@
+//0
+//
+
+begin
+   int marcusTheFlyWeight;
+
+   println marcusTheFlyWeight;
+end

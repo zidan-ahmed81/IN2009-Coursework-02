@@ -1,0 +1,10 @@
+// Syntax error on or just before line 3
+begin 
+   switch switch ( 552 ) { 
+   case 832 : 
+      return ; 
+   default : 
+      { 
+      } 
+   } 
+end 

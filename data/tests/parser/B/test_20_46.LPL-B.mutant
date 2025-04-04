@@ -1,0 +1,15 @@
+// Syntax error on or just before line 14
+begin 
+   { 
+   } 
+   while ( B ) 
+      { 
+      } 
+   newline ; 
+   { 
+   } 
+end 
+proc Kxu ( ) { { 
+} 
+proc n ( ) { 
+} 

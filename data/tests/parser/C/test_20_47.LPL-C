@@ -1,0 +1,6 @@
+// test_20_47.LPL-C
+begin
+int []_jr8X8bFLkv9E; 
+   newline; 
+   printch _X; 
+end

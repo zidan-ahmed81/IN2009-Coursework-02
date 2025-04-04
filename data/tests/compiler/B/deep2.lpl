@@ -1,0 +1,55 @@
+//63
+//
+
+begin println foo50(13); end
+fun int foo50(int x) { return foo49(x) + 1; }
+fun int foo49(int x) { return foo48(x) + 1; }
+fun int foo48(int x) { return foo47(x) + 1; }
+fun int foo47(int x) { return foo46(x) + 1; }
+fun int foo46(int x) { return foo45(x) + 1; }
+fun int foo45(int x) { return foo44(x) + 1; }
+fun int foo44(int x) { return foo43(x) + 1; }
+fun int foo43(int x) { return foo42(x) + 1; }
+fun int foo42(int x) { return foo41(x) + 1; }
+fun int foo41(int x) { return foo40(x) + 1; }
+fun int foo40(int x) { return foo39(x) + 1; }
+fun int foo39(int x) { return foo38(x) + 1; }
+fun int foo38(int x) { return foo37(x) + 1; }
+fun int foo37(int x) { return foo36(x) + 1; }
+fun int foo36(int x) { return foo35(x) + 1; }
+fun int foo35(int x) { return foo34(x) + 1; }
+fun int foo34(int x) { return foo33(x) + 1; }
+fun int foo33(int x) { return foo32(x) + 1; }
+fun int foo32(int x) { return foo31(x) + 1; }
+fun int foo31(int x) { return foo30(x) + 1; }
+fun int foo30(int x) { return foo29(x) + 1; }
+fun int foo29(int x) { return foo28(x) + 1; }
+fun int foo28(int x) { return foo27(x) + 1; }
+fun int foo27(int x) { return foo26(x) + 1; }
+fun int foo26(int x) { return foo25(x) + 1; }
+fun int foo25(int x) { return foo24(x) + 1; }
+fun int foo24(int x) { return foo23(x) + 1; }
+fun int foo23(int x) { return foo22(x) + 1; }
+fun int foo22(int x) { return foo21(x) + 1; }
+fun int foo21(int x) { return foo20(x) + 1; }
+fun int foo20(int x) { return foo19(x) + 1; }
+fun int foo19(int x) { return foo18(x) + 1; }
+fun int foo18(int x) { return foo17(x) + 1; }
+fun int foo17(int x) { return foo16(x) + 1; }
+fun int foo16(int x) { return foo15(x) + 1; }
+fun int foo15(int x) { return foo14(x) + 1; }
+fun int foo14(int x) { return foo13(x) + 1; }
+fun int foo13(int x) { return foo12(x) + 1; }
+fun int foo12(int x) { return foo11(x) + 1; }
+fun int foo11(int x) { return foo10(x) + 1; }
+fun int foo10(int x) { return foo9(x) + 1; }
+fun int foo9(int x) { return foo8(x) + 1; }
+fun int foo8(int x) { return foo7(x) + 1; }
+fun int foo7(int x) { return foo6(x) + 1; }
+fun int foo6(int x) { return foo5(x) + 1; }
+fun int foo5(int x) { return foo4(x) + 1; }
+fun int foo4(int x) { return foo3(x) + 1; }
+fun int foo3(int x) { return foo2(x) + 1; }
+fun int foo2(int x) { return foo1(x) + 1; }
+fun int foo1(int x) { return foo0(x) + 1; }
+fun int foo0(int x) { return x; }

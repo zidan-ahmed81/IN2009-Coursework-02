@@ -1,0 +1,15 @@
+// Syntax error on or just before line 14
+begin 
+int A ; 
+   print 42309643 ; 
+   while ( 942 == 49 ) 
+      { 
+         { 
+         } 
+         newline ; 
+      } 
+   while ( _cvT ) 
+      println z ; 
+end 
+fun fun int aF58q ( ) { 
+} 

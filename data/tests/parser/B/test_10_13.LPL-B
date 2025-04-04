@@ -1,0 +1,8 @@
+// test_10_13.LPL-B
+begin
+int _66; 
+   {
+   }
+end
+proc _WAPBC(){
+}

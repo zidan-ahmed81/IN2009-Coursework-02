@@ -1,0 +1,6 @@
+// test_10_2.LPL-B
+begin
+int _E; 
+   newline; 
+   return ; 
+end

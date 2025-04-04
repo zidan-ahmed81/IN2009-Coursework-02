@@ -1,0 +1,11 @@
+// test_50_16.LPL-C
+begin
+int [][][][][]n; 
+int PaIiR3; 
+   return _G3SA6n; 
+   return ; 
+   gBt(); 
+   printch 649; 
+end
+proc dINn(){
+}

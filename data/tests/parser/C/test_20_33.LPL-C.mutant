@@ -1,0 +1,16 @@
+// Syntax error on or just before line 11
+begin 
+   newline ; 
+   newline ; 
+   { 
+   } 
+   if ( null ) 
+      { 
+      } 
+   else 
+      return ; ; 
+   newline ; 
+   newline ; 
+end 
+proc v ( ) { 
+} 

@@ -1,0 +1,29 @@
+// test_200_24.LPL-A
+begin
+   int Q; 
+   int p; 
+   int _OM16R; 
+   int __; 
+   int _WLRp0; 
+   int V; 
+   int _ZWnPxQQ; 
+   int x; 
+   int _G5Kg0A4R1; 
+   if (!(_lQ0S1L || _6muj) && (__zQ / 29107451))
+      printch !!(1 && 50) <  - 00; 
+   else 
+      print  - 7 == (!_kecY * !!!zgH); 
+   newline; 
+   printch  - 879 && (_Bq); 
+   {
+   }
+   __E0 = uY4; 
+   if (_aH * _5)
+      {
+      }
+   else 
+      _79Y = _a; 
+   printch _Us8; 
+   {
+   }
+end

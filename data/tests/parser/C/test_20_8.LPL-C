@@ -1,0 +1,6 @@
+// test_20_8.LPL-C
+begin
+   printch new int [4]; 
+   {
+   }
+end

@@ -1,0 +1,15 @@
+// Syntax error on or just before line 5
+begin 
+int fO$6$hB ; 
+   
+   } ; 
+   if ( null ) 
+      newline ; 
+   else 
+      return ; 
+end 
+proc _N0 ( ) { 
+} 
+proc _w ( ) { newline 
+proc JVRNBB ( ) { 
+} 

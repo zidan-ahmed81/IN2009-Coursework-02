@@ -1,0 +1,22 @@
+// test_100_37.LPL-C
+begin
+int a$xN; 
+int _5; 
+   {
+      println 293597; 
+      println null; 
+   }
+   println (204 && 38037); 
+   while (BZqbm)
+      return ; 
+   newline; 
+   newline; 
+end
+fun int [][][]_a5(int _Kq){
+int _Eo; 
+   {
+   }
+   {
+   }
+   println _QF$KaFMzW; 
+}

@@ -1,0 +1,15 @@
+// test_50_45.LPL-A
+begin
+   int _Cg9UJ; 
+   int x; 
+   int _vz2; 
+   while (_mMB)
+      {
+         {
+         }
+      }
+   newline; 
+   print 401090 == 4924; 
+   newline; 
+   println _vp; 
+end

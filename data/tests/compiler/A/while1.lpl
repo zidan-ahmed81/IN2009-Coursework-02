@@ -1,0 +1,14 @@
+//3
+//2
+//1
+//
+
+begin
+   int x;
+
+   x = 3;
+   while (0 < x) {
+      println x;
+      x = x - 1;
+   }
+end

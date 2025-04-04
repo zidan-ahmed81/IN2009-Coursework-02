@@ -1,0 +1,6 @@
+// test_10_26.LPL-A
+begin
+   int DA; 
+   newline; 
+   newline; 
+end

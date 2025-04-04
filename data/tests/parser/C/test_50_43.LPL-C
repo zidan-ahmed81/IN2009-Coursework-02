@@ -1,0 +1,13 @@
+// test_50_43.LPL-C
+begin
+int _B; 
+int []R; 
+   if (cF)
+      _7fRGBt = 36901; 
+   else 
+      println null; 
+end
+fun int []_N_(){
+}
+proc n5a8w$(){
+}

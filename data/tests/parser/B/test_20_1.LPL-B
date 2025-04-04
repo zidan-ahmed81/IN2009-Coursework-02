@@ -1,0 +1,7 @@
+// test_20_1.LPL-B
+begin
+   if (51)
+      I9rOcO(); 
+   else 
+      return ; 
+end

@@ -1,0 +1,5 @@
+// test_10_44.LPL-A
+begin
+   int r; 
+   newline; 
+end

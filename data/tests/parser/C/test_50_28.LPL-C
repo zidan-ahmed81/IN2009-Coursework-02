@@ -1,0 +1,17 @@
+// test_50_28.LPL-C
+begin
+int _0Xz9; 
+int []W; 
+   {
+      println _f; 
+      newline; 
+   }
+   {
+      newline; 
+   }
+   newline; 
+end
+fun int kOX6rQ(){
+}
+proc Q0HUZCwd(){
+}

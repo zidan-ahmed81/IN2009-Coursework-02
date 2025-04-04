@@ -1,0 +1,8 @@
+// test_20_14.LPL-A
+begin
+   int VrF; 
+   int _zUrD; 
+   {
+      newline; 
+   }
+end

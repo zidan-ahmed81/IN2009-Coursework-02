@@ -1,0 +1,9 @@
+// Syntax error on or just before line 9
+begin 
+   int _qV9ggM ; 
+   int _BdM ; 
+   { 
+   } 
+   { 
+   } 
+   newline ; 

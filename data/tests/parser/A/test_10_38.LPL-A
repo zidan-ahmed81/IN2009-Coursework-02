@@ -1,0 +1,7 @@
+// test_10_38.LPL-A
+begin
+   int _zcS$BJ; 
+   {
+   }
+   newline; 
+end

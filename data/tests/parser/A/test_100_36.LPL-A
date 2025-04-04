@@ -1,0 +1,21 @@
+// test_100_36.LPL-A
+begin
+   int _QB$o; 
+   int _GHbLTZb8xxnx; 
+   _m5LRDd = (!_kEX == 2) && (_Zlbrzglkl <= (v6oocR3ZN2VOmAe6z$x7CV)); 
+   {
+   }
+   _nhHp = Pa; 
+   if (964)
+      {
+         newline; 
+         newline; 
+      }
+   else 
+      eN7 = _k; 
+   if (!_wN)
+      {
+      }
+   else 
+      newline; 
+end

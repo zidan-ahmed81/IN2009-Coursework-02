@@ -1,0 +1,7 @@
+// test_10_23.LPL-B
+begin
+   {
+   }
+end
+proc _BIo(){
+}

@@ -1,0 +1,10 @@
+// test_20_29.LPL-B
+begin
+int _b; 
+int ttUk; 
+int Ww; 
+   {
+   }
+end
+proc _A(){
+}

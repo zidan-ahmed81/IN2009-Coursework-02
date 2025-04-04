@@ -1,0 +1,14 @@
+// Syntax error on or just before line 11
+begin 
+int Z7 ; 
+   return ; 
+   { 
+   } 
+end 
+proc q ( int _eL7gSQm5V ) { 
+int JNnjVi ; 
+} 
+proc ( int _ncUpF ) { 
+} 
+proc J ( ) { 
+} 

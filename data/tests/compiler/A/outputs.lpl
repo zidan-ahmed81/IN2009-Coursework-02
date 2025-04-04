@@ -1,0 +1,13 @@
+//
+//53
+//53
+//00C
+
+begin
+   newline;
+   println 53;
+   println (52 + 1);
+   print 0;
+   print (13 * 0);
+   printch 67;
+end

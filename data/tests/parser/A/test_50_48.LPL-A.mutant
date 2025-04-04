@@ -1,0 +1,9 @@
+// Syntax error on or just before line 5
+begin 
+   int _uV ; 
+   printch ! ( ( 277 ) ) <= 0 ; 
+   printch _r _r ; 
+   println _7k || UIs ; 
+   newline ; 
+   newline ; 
+end 

@@ -1,0 +1,9 @@
+//5
+//
+
+begin
+   int x;
+
+   x = 0;
+   println (0 && (1/x)) + 5;
+end

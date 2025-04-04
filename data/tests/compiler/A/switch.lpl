@@ -1,0 +1,14 @@
+//33
+//
+begin
+   int x;
+   int y;
+
+   y = 0 - 1;
+   x = 7;
+   switch (x) {
+      default:
+         y = 33;
+   }
+   println y;
+end

@@ -1,0 +1,40 @@
+// test_200_35.LPL-A
+begin
+   int N3s; 
+   int _rqqmk; 
+   int _$C2; 
+   int _xnDZ_rqkD_1PcTT; 
+   int _Sz; 
+   int _8; 
+   int W5Jq; 
+   int _x; 
+   int oa7a; 
+   int IAW; 
+   int _u; 
+   int _$6R; 
+   int _DpX; 
+   int _hjpKWqASuJd; 
+   int _03Zq; 
+   newline; 
+   {
+      _VQ = !!U_kS && (7743 && !_IKE_ch7); 
+      {
+      }
+      newline; 
+      {
+      }
+   }
+   while (! - 846 <  - 5819)
+      printch 41; 
+   print (23 == L4) || _D; 
+   while (3)
+      if (RH)
+         newline; 
+      else 
+         newline; 
+   newline; 
+   {
+   }
+   {
+   }
+end

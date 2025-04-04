@@ -1,0 +1,18 @@
+// Syntax error on or just before line 10
+begin 
+   return ; 
+   return ; 
+   _cFUH5XVV3mv = null ; 
+end 
+proc _IXDG ( ) { 
+} 
+proc x6o ( ) { 
+} begin 
+   return ; 
+   return ; 
+   _cFUH5XVV3mv = null ; 
+end 
+proc _IXDG ( ) { 
+} 
+proc x6o ( ) { 
+} 

@@ -1,0 +1,27 @@
+// Syntax error on or just before line 9
+begin 
+int _QCb ; 
+int _I ; 
+int _9Z_0 ; 
+int K ; 
+   return ; 
+end 
+proc _Aw _Aw ( int u ) { 
+int [ ] [ ] _jwBiSisEIpQ4xy ; 
+int _cAEFE80dZ8 ; 
+   newline ; 
+   print null ; 
+   { 
+   } 
+} 
+fun int SRn ( int _0gc ) { 
+   switch ( null ) { 
+   default : 
+      { 
+      } 
+   } 
+} 
+proc oRtR1 ( ) { 
+} 
+proc _qT ( ) { 
+} 

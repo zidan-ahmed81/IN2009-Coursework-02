@@ -1,0 +1,9 @@
+// test_50_48.LPL-A
+begin
+   int _uV; 
+   printch !((277)) <= 0; 
+   printch _r; 
+   println _7k || UIs; 
+   newline; 
+   newline; 
+end

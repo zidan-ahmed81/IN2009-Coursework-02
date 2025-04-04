@@ -1,0 +1,7 @@
+// test_10_47.LPL-A
+begin
+   newline; 
+   {
+   }
+   newline; 
+end

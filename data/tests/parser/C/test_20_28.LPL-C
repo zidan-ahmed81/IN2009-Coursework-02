@@ -1,0 +1,9 @@
+// test_20_28.LPL-C
+begin
+int PJoh; 
+   if (Cvco)
+      _e$jXIF1ebEKI = null; 
+   else 
+      return ; 
+   return ; 
+end

@@ -1,0 +1,27 @@
+//0
+//0
+//1
+//1
+//0
+//1
+//1
+//1
+//0
+//1
+//0
+//0
+//
+begin
+   println 10 < 9;
+   println 9 < 9;
+   println 8 < 11;
+   println (0 - 1) < 0;
+   println 10 <= 9;
+   println 9 <= 9;
+   println 8 <= 11;
+   println (0 - 1) <= 0;
+   println 10 == 9;
+   println 9 == 9;
+   println 8 == 11;
+   println (0 - 1) == 0;
+end

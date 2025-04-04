@@ -1,0 +1,18 @@
+// Syntax error on or just before line 3
+begin 
+_lF8 ; 
+int knmfvuMM_ ; 
+int _9X ; 
+   return ; 
+   { 
+      newline ; 
+   } 
+   return ; 
+end 
+proc tm ( ) { 
+int GD902t ; 
+   if ( null ) 
+      newline ; 
+   else 
+      newline ; 
+} 

@@ -1,0 +1,5 @@
+// test_10_7.LPL-A
+begin
+   int _I42Lx; 
+   printch WIu; 
+end

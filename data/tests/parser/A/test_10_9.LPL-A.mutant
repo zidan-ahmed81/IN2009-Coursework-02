@@ -1,0 +1,14 @@
+// Syntax error on or just before line 8
+begin 
+   int FalRX ; 
+   { 
+   } 
+   { 
+   } 
+end begin 
+   int FalRX ; 
+   { 
+   } 
+   { 
+   } 
+end 

@@ -1,0 +1,8 @@
+// test_20_44.LPL-C
+begin
+   newline; 
+   {
+   }
+end
+fun int []s(){
+}

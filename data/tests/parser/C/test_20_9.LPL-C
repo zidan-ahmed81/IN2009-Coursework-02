@@ -1,0 +1,10 @@
+// test_20_9.LPL-C
+begin
+int _14MBCt8dl3; 
+int _vFI; 
+   if (null)
+      newline; 
+   else 
+      {
+      }
+end

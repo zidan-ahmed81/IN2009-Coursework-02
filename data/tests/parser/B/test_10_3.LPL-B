@@ -1,0 +1,8 @@
+// test_10_3.LPL-B
+begin
+   return ; 
+   {
+   }
+   {
+   }
+end

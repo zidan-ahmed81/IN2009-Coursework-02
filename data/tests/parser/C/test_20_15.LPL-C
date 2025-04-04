@@ -1,0 +1,11 @@
+// test_20_15.LPL-C
+begin
+int YQwvtDcal3e; 
+   if (null)
+      switch(OQ){
+      default : 
+         newline; 
+      }
+   else 
+      return ; 
+end

@@ -1,0 +1,5 @@
+// test_10_29.LPL-A
+begin
+   int _sPU; 
+   newline; 
+end

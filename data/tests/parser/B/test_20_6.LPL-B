@@ -1,0 +1,10 @@
+// test_20_6.LPL-B
+begin
+   newline; 
+end
+fun int n(){
+}
+proc t(){
+}
+fun int Eid6e(){
+}

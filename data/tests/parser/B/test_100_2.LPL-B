@@ -1,0 +1,33 @@
+// test_100_2.LPL-B
+begin
+int _oupziUj; 
+int _ov; 
+   _0$chN(); 
+   {
+      {
+      }
+      print oy5b; 
+   }
+   print 181973; 
+   return ; 
+   switch((_tiSb)){
+   case 65603: 
+      {
+      }
+   case 14: 
+      return ; 
+   default : 
+      return ; 
+   }
+   if (45)
+      while (Y)
+         print _NUjP6JEr; 
+   else 
+      while (8)
+         return ; 
+   {
+   }
+   newline; 
+end
+fun int ZuC(){
+}

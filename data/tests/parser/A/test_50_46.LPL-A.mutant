@@ -1,0 +1,16 @@
+// Syntax error on or just before line 6
+begin 
+   int _34 ; 
+   int Sf ; 
+   { 
+      newline newline ; 
+   } 
+   if ( 54743 ) 
+      println m <= ! 48 ; 
+   else 
+      print 66 ; 
+   newline ; 
+   newline ; 
+   { 
+   } 
+end 

@@ -1,0 +1,16 @@
+// test_50_41.LPL-A
+begin
+   int _PKXT; 
+   int _GD; 
+   int _u; 
+   print _ksaJP &&  - 84082; 
+   _2 = _6; 
+   if (_5OEo0$p4)
+      newline; 
+   else 
+      {
+      }
+   {
+   }
+   newline; 
+end

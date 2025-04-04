@@ -1,0 +1,5 @@
+// test_10_34.LPL-A
+begin
+   int o8MPGHLop; 
+   print _4u; 
+end

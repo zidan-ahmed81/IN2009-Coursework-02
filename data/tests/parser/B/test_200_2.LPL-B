@@ -1,0 +1,44 @@
+// test_200_2.LPL-B
+begin
+int pm; 
+int _1P; 
+int _IT6; 
+int _tks29; 
+int _Cx3; 
+int C; 
+   _F59x(!_nu / G9q, _Y1 == 79530156, 894558, _d); 
+   {
+      {
+         _1s(); 
+         {
+            return ; 
+         }
+      }
+      print v; 
+      {
+      }
+      {
+      }
+   }
+   {
+      printch 0908; 
+      c2(); 
+   }
+   while (!!(4) <= (u || _d6v5IGk))
+      newline; 
+   {
+   }
+   if (6975)
+      return ; 
+   else 
+      while (KbYL)
+         newline; 
+   while (98)
+      newline; 
+   {
+   }
+   {
+   }
+end
+proc _87r$(){
+}

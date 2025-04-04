@@ -1,0 +1,16 @@
+//7
+//8
+//9
+//
+
+begin
+   int[] a;
+
+   a = new int[3];
+   a[0] = 7;
+   a[1] = 8;
+   a[2] = 9;
+   println a[0];
+   println a[1];
+   println a[2];
+end

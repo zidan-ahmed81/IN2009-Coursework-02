@@ -1,0 +1,10 @@
+// test_20_41.LPL-B
+begin
+int SXEtE; 
+int h2; 
+   {
+   }
+   return ; 
+end
+proc _K(){
+}

@@ -1,0 +1,5 @@
+// test_10_19.LPL-A
+begin
+   int F; 
+   println 73; 
+end

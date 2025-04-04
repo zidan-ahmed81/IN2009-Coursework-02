@@ -1,0 +1,14 @@
+// test_20_18.LPL-B
+begin
+   newline; 
+   {
+   }
+end
+proc _5(){
+}
+fun int _I4(){
+}
+proc _oA(){
+}
+proc oR(){
+}

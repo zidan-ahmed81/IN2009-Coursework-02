@@ -1,0 +1,10 @@
+// test_20_36.LPL-B
+begin
+   newline; 
+   while (_Zz_a3)
+      return ; 
+end
+fun int VVrC(){
+}
+proc _H(){
+}

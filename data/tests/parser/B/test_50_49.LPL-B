@@ -1,0 +1,12 @@
+// test_50_49.LPL-B
+begin
+int z; 
+int _FM5; 
+int _Vtu4m; 
+   while ( - 52685)
+      newline; 
+   newline; 
+   printch !(za); 
+end
+fun int _f_CZE(){
+}

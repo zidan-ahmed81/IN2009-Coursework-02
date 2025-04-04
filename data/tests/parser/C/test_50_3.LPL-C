@@ -1,0 +1,15 @@
+// test_50_3.LPL-C
+begin
+int [][]_a; 
+int JwcNI; 
+   newline; 
+   if (null)
+      return ; 
+   else 
+      newline; 
+   while (191)
+      printch 460; 
+   M = _Y; 
+   {
+   }
+end

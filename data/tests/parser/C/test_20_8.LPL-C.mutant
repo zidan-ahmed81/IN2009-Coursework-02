@@ -1,0 +1,6 @@
+// Syntax error on or just before line 3
+begin 
+   printch new int int [ 4 ] ; 
+   { 
+   } 
+end 

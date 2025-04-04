@@ -1,0 +1,19 @@
+// Syntax error on or just before line 5
+begin 
+int XGiD8p ; 
+int v ; 
+   printch ( _8kHykp3$$R01 ) + ! ip : 
+   switch ( L7 ) { 
+   case 7 : 
+      return ; 
+   case 129 : 
+      { 
+      } 
+   default ; 
+      { 
+      } 
+   } 
+   return ; 
+end 
+proc _A4Tl ( ) { 
+} 

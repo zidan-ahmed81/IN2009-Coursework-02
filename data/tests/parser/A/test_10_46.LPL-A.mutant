@@ -1,0 +1,4 @@
+// Syntax error on or just before line 2
+begin begin 
+   int _$8 ; 
+end 

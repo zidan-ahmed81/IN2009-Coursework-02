@@ -1,0 +1,9 @@
+// Syntax error on or just before line 5
+begin 
+int _s6_ZFT ; 
+   print null ; { 
+end 
+proc _Z5S ( ) 
+   { 
+   } 
+} 

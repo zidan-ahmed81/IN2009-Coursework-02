@@ -1,0 +1,9 @@
+// test_50_23.LPL-C
+begin
+int [][]_yv6J; 
+int _zxMlf; 
+int lzYqnq; 
+   println 274; 
+end
+fun int h59(int _XW){
+}

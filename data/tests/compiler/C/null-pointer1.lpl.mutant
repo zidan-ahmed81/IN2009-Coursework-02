@@ -1,0 +1,7 @@
+begin
+   int[] a;
+
+   a = null;
+   print a[0].length; // type error
+   print 99;
+end

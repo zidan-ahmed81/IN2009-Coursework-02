@@ -1,0 +1,14 @@
+// Syntax error on or just before line 3
+
+   { 
+      newline ; 
+      newline ; 
+   } 
+   { 
+   } 
+   newline ; 
+   { 
+   } 
+   { 
+   } 
+end 

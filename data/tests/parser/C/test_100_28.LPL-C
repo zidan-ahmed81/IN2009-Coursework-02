@@ -1,0 +1,24 @@
+// test_100_28.LPL-C
+begin
+int _MaPW4b7; 
+int V_iZRFf; 
+int N5tN; 
+   {
+      {
+      }
+      newline; 
+   }
+   println _G / null; 
+end
+proc E(int _Brw4Zv1o, int _9A4$qBaGZONu_5){
+int _Zv; 
+int w; 
+   newline; 
+   newline; 
+}
+fun int _jA7(){
+}
+proc _vl(){
+}
+proc _Q(){
+}

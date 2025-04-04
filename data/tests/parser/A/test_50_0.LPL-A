@@ -1,0 +1,19 @@
+// test_50_0.LPL-A
+begin
+   int _u; 
+   int _jq; 
+   int _SwJvHqSx2wpXc; 
+   {
+      {
+      }
+      iV = s7Tz * _t; 
+      {
+      }
+   }
+   print Z; 
+   {
+      {
+      }
+      newline; 
+   }
+end

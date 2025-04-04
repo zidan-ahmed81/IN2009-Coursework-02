@@ -1,0 +1,25 @@
+// test_100_22.LPL-C
+begin
+int _$; 
+   {
+      print 49; 
+      {
+      }
+   }
+   printch fpEN; 
+   return ; 
+   return ; 
+   return ; 
+end
+fun int [][][][]jjWKrw(int []_ZLEJ, int _W){
+int s; 
+int _K3t; 
+   return ; 
+   return ; 
+}
+fun int _b(int FKN){
+int g; 
+int _72; 
+   {
+   }
+}

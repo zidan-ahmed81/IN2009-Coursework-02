@@ -1,0 +1,18 @@
+// test_50_29.LPL-C
+begin
+int uBja; 
+int Lf9_N6; 
+int _jb0Eg; 
+   while (281)
+      printch 8; 
+   return ; 
+   if (null)
+      return ; 
+   else 
+      {
+      }
+end
+proc y(){
+}
+proc jlrk(){
+}

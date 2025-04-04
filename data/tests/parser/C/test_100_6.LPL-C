@@ -1,0 +1,19 @@
+// test_100_6.LPL-C
+begin
+int _l; 
+int _rGbc; 
+int [][][][][]tRsTCc; 
+int [][][][]nv; 
+int _cI; 
+   _XeTsy = _GN; 
+   while (766)
+      printch null; 
+   println null; 
+end
+fun int _MI(){
+int Zfk; 
+int _gDfI; 
+   return ; 
+}
+proc uI7a(){
+}

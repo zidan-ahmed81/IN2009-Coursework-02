@@ -1,0 +1,15 @@
+// test_50_6.LPL-C
+begin
+   while (null)
+      newline; 
+   println M; 
+   if (52)
+      {
+      }
+   else 
+      newline; 
+end
+fun int I(){
+}
+proc _a(){
+}

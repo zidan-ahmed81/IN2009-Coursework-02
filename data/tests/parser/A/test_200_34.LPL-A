@@ -1,0 +1,42 @@
+// test_200_34.LPL-A
+begin
+   int _glRUk4; 
+   int irZ; 
+   int _d; 
+   int _X; 
+   int QxNW5ZhMV; 
+   int _e; 
+   int _I1Gf; 
+   int GfphA$3Ov; 
+   int I; 
+   int sq; 
+   int xDvSEl0Tp; 
+   int _co; 
+   _3V6B$ = !_0vLQbDBv + !!_2o; 
+   newline; 
+   switch(!(_J8h) + 94067){
+   case  - 1: 
+      newline; 
+   case  - 74: 
+      printch RqVZT +  - 95; 
+   case 175171881: 
+      newline; 
+   case  - 99800807: 
+      {
+      }
+   case 159920: 
+      {
+      }
+   case 75226073: 
+      {
+      }
+   default : 
+      newline; 
+   }
+   newline; 
+   print (_ty) - !165; 
+   newline; 
+   {
+   }
+   newline; 
+end

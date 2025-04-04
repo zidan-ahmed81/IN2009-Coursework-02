@@ -1,0 +1,7 @@
+// test_20_32.LPL-C
+begin
+   printch null; 
+   return ; 
+end
+fun int []_e_KG(){
+}

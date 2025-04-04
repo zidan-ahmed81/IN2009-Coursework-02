@@ -1,0 +1,39 @@
+// test_200_40.LPL-C
+begin
+int [][]_H; 
+int [][][]_48hEZqRG2u5kLWL_; 
+int _xD$nBn; 
+int WX; 
+int _Ry; 
+   {
+      return ; 
+      newline; 
+      newline; 
+      newline; 
+   }
+   As[null] = 024; 
+   printch null <= null; 
+   print null; 
+   if (null)
+      if (J)
+         println !null || null; 
+      else 
+         _Nw(); 
+   else 
+      W_KG2u(); 
+   return ; 
+end
+fun int []Tb(){
+int Z0; 
+int p; 
+}
+fun int K_(){
+int _9xAQQuk_p; 
+int []WokNsKz; 
+   printch _t59rdrT3W; 
+   newline; 
+}
+proc _2YAS(){
+}
+fun int []_4r(){
+}

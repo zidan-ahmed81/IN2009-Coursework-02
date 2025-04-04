@@ -1,0 +1,15 @@
+// Syntax error on or just before line 12
+begin 
+   while ( _u8 ) 
+      { 
+      } 
+   if ( 63777 ) 
+      { 
+      } 
+   else 
+      { 
+      } 
+   newline ; ; 
+   { 
+   } 
+end 

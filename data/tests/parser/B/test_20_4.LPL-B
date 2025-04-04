@@ -1,0 +1,10 @@
+// test_20_4.LPL-B
+begin
+int h; 
+int T; 
+int _kqDRI; 
+   {
+   }
+end
+fun int z(){
+}

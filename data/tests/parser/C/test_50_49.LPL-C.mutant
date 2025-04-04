@@ -1,0 +1,10 @@
+// Syntax error on or just before line 7
+begin 
+int A ; 
+int Hb ; 
+int _9U ; 
+int _btoQ ; 
+   printch ; ; 
+   println null ; 
+   return null || 5445463 
+end 

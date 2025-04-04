@@ -1,0 +1,9 @@
+// test_20_12.LPL-C
+begin
+int S; 
+   switch(null){
+   default : 
+      return ; 
+   }
+   printch null; 
+end

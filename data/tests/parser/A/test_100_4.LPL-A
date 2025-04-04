@@ -1,0 +1,23 @@
+// test_100_4.LPL-A
+begin
+   {
+      printch (8 - 5) < mQz; 
+      println !249; 
+      while (6)
+         newline; 
+      {
+         print 15; 
+      }
+      while (!8 || !_rot)
+         newline; 
+      print _dh; 
+      while (203201)
+         {
+         }
+      {
+      }
+   }
+   printch _xo; 
+   {
+   }
+end

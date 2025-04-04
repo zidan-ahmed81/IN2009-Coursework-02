@@ -1,0 +1,18 @@
+// Syntax error on or just before line 14
+begin 
+int _0Y ; 
+int _T ; 
+int F ; 
+int mCm ; 
+int O ; 
+   { 
+   } 
+   { 
+   return ; 
+   newline ; 
+   return ; 
+end 
+proc _D ( ) { 
+} 
+proc _z ( ) { 
+} 

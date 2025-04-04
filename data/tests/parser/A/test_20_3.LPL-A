@@ -1,0 +1,6 @@
+// test_20_3.LPL-A
+begin
+   printch 27; 
+   newline; 
+   println D; 
+end

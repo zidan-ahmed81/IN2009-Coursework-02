@@ -1,0 +1,6 @@
+// test_10_16.LPL-B
+begin
+int cBNI2$tm4; 
+end
+fun int _x(){
+}

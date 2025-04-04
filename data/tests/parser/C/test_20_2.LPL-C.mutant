@@ -1,0 +1,7 @@
+// Syntax error on or just before line 5
+begin 
+int [ ] fo ; 
+int _T9 ; 
+_jiTmI_ ; 
+   newline ; 
+end 

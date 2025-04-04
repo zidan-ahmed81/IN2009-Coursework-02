@@ -1,0 +1,10 @@
+// test_20_7.LPL-C
+begin
+   return ; 
+   return ; 
+   printch null; 
+end
+proc uN(){
+}
+fun int _WgAWS4(){
+}

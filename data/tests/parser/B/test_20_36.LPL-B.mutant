@@ -1,0 +1,10 @@
+// Syntax error on or just before line 7
+begin 
+   newline ; 
+   while ( _Zz_a3 ) 
+      return ; 
+end 
+fun int int VVrC ( ) { 
+} 
+proc _H ( ) { 
+} 

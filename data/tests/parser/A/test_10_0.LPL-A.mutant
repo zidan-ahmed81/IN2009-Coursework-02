@@ -1,0 +1,6 @@
+// Syntax error on or just before line 3
+begin 
+   ; _X9Bzj6 ; 
+   int b int 
+   int _K8n ; 
+end 

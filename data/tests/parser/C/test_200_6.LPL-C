@@ -1,0 +1,32 @@
+// test_200_6.LPL-C
+begin
+int [][]gTD; 
+int [][][]_d; 
+int []_h; 
+int [][][][]qs; 
+int _i; 
+int zbB; 
+int _KnChs; 
+int _GPs4LUVk3qxMyRXpQhJZ4Svq; 
+   println 29719326; 
+end
+proc __(){
+int erH; 
+   return ; 
+}
+fun int [][][]_0rLdx(int []_JkfG, int []_xT$_Ap){
+int B; 
+int _H; 
+   {
+   }
+}
+fun int []_n(int _T){
+   println 8; 
+   if (null)
+      return ; 
+   else 
+      newline; 
+   return ; 
+}
+proc _C(){
+}

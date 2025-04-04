@@ -1,0 +1,15 @@
+//907
+//6
+//438
+//
+
+begin
+   {
+      println 907;
+      {}
+      {
+         println 6;
+      }
+      println 438;
+   }
+end

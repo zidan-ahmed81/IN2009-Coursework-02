@@ -1,0 +1,28 @@
+//5152
+//
+
+begin
+   println fooble(0, 100);
+end
+
+fun int fooble(int x, int y) {
+   int z;
+
+   if (y < x) {
+      z = 100 * x;
+   } else {
+      z = feeble(x + 1, y - 1);
+   }
+   return z+1;
+}
+
+fun int feeble(int x, int y) {
+   int z;
+
+   if (!(y < x)) {
+      z = fooble(x + 1, y - 1);
+   } else {
+      z = 100 * x;
+   }
+   return z+1;
+}

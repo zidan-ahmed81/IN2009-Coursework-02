@@ -1,0 +1,8 @@
+// test_20_36.LPL-C
+begin
+int kWW; 
+int j; 
+   print null; 
+end
+proc L(){
+}

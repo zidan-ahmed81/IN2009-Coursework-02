@@ -1,0 +1,8 @@
+// Syntax error on or just before line 7
+begin 
+   while ( _2h ) 
+      { 
+      } 
+   newline ; 
+   print yRx yRx ; 
+end 

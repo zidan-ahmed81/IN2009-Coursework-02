@@ -1,0 +1,11 @@
+// test_50_27.LPL-A
+begin
+   println (9062039) <= (_xsVd7p * 5); 
+   println (!3 * 5) <= (3450); 
+   if (GtfR)
+      {
+      }
+   else 
+      {
+      }
+end

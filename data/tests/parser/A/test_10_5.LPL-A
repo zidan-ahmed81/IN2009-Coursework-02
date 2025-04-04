@@ -1,0 +1,5 @@
+// test_10_5.LPL-A
+begin
+   int q; 
+   print Vd; 
+end

@@ -1,0 +1,7 @@
+// test_10_4.LPL-A
+begin
+   int _0; 
+   while (_cc1)
+      {
+      }
+end

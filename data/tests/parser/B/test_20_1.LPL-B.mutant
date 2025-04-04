@@ -1,0 +1,7 @@
+// Syntax error on or just before line 4
+begin 
+   if ( 51 ) 
+      I9rOcO ( ; 
+   else 
+      return ; 
+end 

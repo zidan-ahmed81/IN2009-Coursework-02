@@ -1,0 +1,107 @@
+// 2 3 5
+// 4 6 10
+//
+// 7 11 13
+// 14 22 26
+// 21 33 39
+//
+// 161 253 299
+// 322 506 598
+//
+
+begin
+   int[][] A;
+   int[][] B;
+   int[] row;
+   int i;
+
+   A = new int[2][];
+   i = 0;
+   while (i < A.length) {
+      row = new int[3];
+      A[i] = row;
+      i = i + 1;
+      row[0] = i * 2;
+      row[1] = i * 3;
+      row[2] = i * 5;
+   }
+   B = new int[3][];
+   i = 0;
+   while (i < B.length) {
+      row = new int[3];
+      B[i] = row;
+      i = i + 1;
+      row[0] = i * 7;
+      row[1] = i * 11;
+      row[2] = i * 13;
+   }
+   printMatrix(A);
+   newline;
+   printMatrix(B);
+   newline;
+   printMatrix(multiply(A, B));
+end
+
+fun int[][] multiply(int[][]A, int[][]B) {
+   int[][] M;
+   int[] typicalRowB;
+   int i;
+   int[] row;
+   int r;
+   int c;
+
+   M = new int[A.length][];
+   typicalRowB = B[0];
+   i = 0;
+   while (i < A.length) {
+      M[i] = new int[typicalRowB.length];
+      i = i + 1;
+   }
+   r = 0;
+   while (r < M.length) {
+      row = M[r];
+      c = 0;
+      while (c < row.length) {
+         row[c] = rowByCol(A, r, B, c);
+         c = c + 1;
+      }
+      r = r + 1;
+   }
+   return M;
+}
+
+fun int rowByCol(int[][] A, int r, int[][] B, int c) {
+   int i;
+   int sum;
+   int[] Arow;
+   int[] Brow;
+
+   sum = 0;
+   Arow = A[r];
+   i = 0;
+   while (i < Arow.length) {
+      Brow = B[i];
+      sum = sum + (Arow[i] * Brow[c]);
+      i = i + 1;
+   }
+   return sum;
+}
+
+proc printMatrix(int[][] A) {
+   int r;
+   int c;
+   int[] row;
+
+   r = 0;
+   while (r < A.length) {
+      row = A[r];
+      c = 0;
+      while (c < row.length) {
+         printch 32;
+         print row[c];
+         c = c + 1;
+      }
+      newline;
+      r = r + 1;
+   }
+}

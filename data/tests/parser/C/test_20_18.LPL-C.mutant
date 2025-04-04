@@ -1,0 +1,8 @@
+// Syntax error on or just before line 4
+begin 
+int mvj0 ; 
+newline _5r ; 
+   while ( null ) 
+      int ; 
+   return ; 
+end 

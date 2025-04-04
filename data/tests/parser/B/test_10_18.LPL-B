@@ -1,0 +1,4 @@
+// test_10_18.LPL-B
+begin
+   return ; 
+end

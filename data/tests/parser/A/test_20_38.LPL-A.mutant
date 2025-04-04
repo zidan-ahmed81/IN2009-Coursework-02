@@ -1,0 +1,9 @@
+// Syntax error on or just before line 6
+begin 
+   int _LJp ; 
+   newline ; 
+   newline ; 
+   while ( 2 ) ) 
+      { 
+      } 
+end 

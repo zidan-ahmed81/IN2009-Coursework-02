@@ -1,0 +1,9 @@
+// test_20_4.LPL-A
+begin
+   int _C; 
+   int _6; 
+   int f; 
+   print J; 
+   newline; 
+   newline; 
+end

@@ -1,0 +1,12 @@
+// Syntax error on or just before line 7
+begin 
+   int C0 ; 
+   int mF2 ; 
+   { 
+   } 
+end begin 
+   int C0 ; 
+   int mF2 ; 
+   { 
+   } 
+end 

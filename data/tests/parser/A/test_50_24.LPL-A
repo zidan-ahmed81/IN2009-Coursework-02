@@ -1,0 +1,13 @@
+// test_50_24.LPL-A
+begin
+   int o; 
+   int _X; 
+   int h4; 
+   int zCC2Z$0$w; 
+   int FCN; 
+   int _gINc2o7; 
+   int _jdU; 
+   int _FvK; 
+   println bR; 
+   print _t; 
+end

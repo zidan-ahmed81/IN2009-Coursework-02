@@ -1,0 +1,97 @@
+-- Note: some tokens are defined to reserve them for
+-- future language extensions but are not used in the current
+-- LPL grammar
+
+tokens {
+    SKIP: "((//.*(\r?\n))|\s)+" -- DO NOT MODIFY (simple comments and whitespace)
+    LSQBR: "\["
+    RSQBR: "\]"
+    DOT: "\."
+    LBR: "\("
+    RBR: "\)"
+    LCBR: "\{"
+    RCBR: "\}"
+    SEMIC: ";"
+    COMMA: ","
+    COLON: ":"
+    BEGIN: "begin"
+    END: "end"
+    NEW: "new"
+    LENGTH: "length"
+    PRINTLN: "println"
+    PRINT: "print"
+    PRINTCH: "printch"
+    READINT: "readint"
+    NEWLINE: "newline"
+    INT_TYPE: "int"
+    NULL: "null"
+    ASSIGN: "="
+    ARROW: "->"
+    PROC: "proc"
+    FUN: "fun"
+    WHILE: "while"
+    IF: "if"
+    ELSE: "else"
+    RETURN: "return"
+    SWITCH: "switch"
+    CASE: "case"
+    DEFAULT: "default"
+    MUL: "\*"
+    DIV: "/"
+    ADD: "\+"
+    MINUS: "-"
+    EQ: "=="
+    LT: "<"
+    LE: "<="
+    NOT: "!"
+    AND: "&&"
+    OR: "\|\|"
+    STRINGLIT: ""[^\\"\n]*("|\\([^\n][^\\"\n]*\\)*[^\n][^\\"\n]*")"
+    -- an identifier is a non-empty sequence of letters, digits, underscores,
+    -- and dollar signs, but cannot start with a digit or a dollar sign and
+    -- cannot be just a single underscore
+    ID: "(_[a-zA-Z_0-9$]+)|([a-zA-Z][a-zA-Z_0-9$]*)"
+    -- integer literals (unsigned)
+    INTLIT: "[0-9]+"
+}
+
+Program -> BEGIN GlobalVarDecl* Stm* END
+
+GlobalVarDecl -> Type ID SEMIC
+
+Type -> INT_TYPE
+
+Stm -> ID ASSIGN Exp SEMIC -- assignment statement
+Stm -> IF LBR Exp RBR Stm ELSE Stm -- if-statement
+Stm -> WHILE LBR Exp RBR Stm -- while-loop
+Stm -> PRINT Exp SEMIC -- output decimal (no newline)
+Stm -> PRINTLN Exp SEMIC -- output decimal (with newline)
+Stm -> PRINTCH Exp SEMIC -- output character
+Stm -> NEWLINE SEMIC -- output newline
+Stm -> LCBR Stm* RCBR -- block
+Stm -> SWITCH LBR Exp RBR LCBR Case* DEFAULT COLON Stm RCBR
+
+Case -> CASE OptionalSign INTLIT COLON Stm
+
+OptionalSign -> MINUS
+OptionalSign ->
+
+Exp -> SimpleExp OperatorClause
+
+OperatorClause -> Operator SimpleExp
+OperatorClause ->
+
+SimpleExp -> ID -- variable
+SimpleExp -> OptionalSign INTLIT -- integer literal
+SimpleExp -> NOT SimpleExp -- logical negation
+SimpleExp -> LBR Exp RBR
+
+Operator -> MUL
+Operator -> DIV
+Operator -> MINUS
+Operator -> ADD
+Operator -> LT
+Operator -> LE
+Operator -> EQ
+Operator -> AND
+Operator -> OR

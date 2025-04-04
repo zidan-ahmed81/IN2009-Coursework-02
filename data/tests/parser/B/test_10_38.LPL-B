@@ -1,0 +1,8 @@
+// test_10_38.LPL-B
+begin
+   newline; 
+end
+proc _wiCF(){
+}
+proc _6Rw(){
+}

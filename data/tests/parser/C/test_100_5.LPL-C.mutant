@@ -1,0 +1,15 @@
+// Syntax error on or just before line 9
+begin 
+int [ ] h ; 
+int [ ] [ ] _ZchCKMOc ; 
+int o9r ; 
+int _m ; 
+   while ( ( 373 ) / null ) 
+      return null / 96 ; 
+   while ( ) 
+      println 421 ; 
+   print 4 ; 
+   return ; 
+   newline ; 
+   return ; 
+end new int [ 1489089164 ] 

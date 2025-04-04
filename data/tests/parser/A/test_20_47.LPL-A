@@ -1,0 +1,8 @@
+// test_20_47.LPL-A
+begin
+   int _T0Z_9e; 
+   int p; 
+   println UWeu; 
+   printch 4150; 
+   newline; 
+end

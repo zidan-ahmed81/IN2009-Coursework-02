@@ -1,0 +1,24 @@
+// Syntax error on or just before line 11
+begin 
+   int Wl ; 
+   int V ; 
+   int i ; 
+   int D ; 
+   int _itBS ; 
+   if ( ! 7 ) 
+      newline ; 
+   else 
+   else 
+      if ( VW080g ) 
+         newline ; 
+      else 
+         newline ; 
+   { 
+   } 
+   if ( CD ) 
+      { 
+      } 
+   else 
+      { 
+      } 
+end 

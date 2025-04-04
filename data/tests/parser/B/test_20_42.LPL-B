@@ -1,0 +1,10 @@
+// test_20_42.LPL-B
+begin
+int X_; 
+int _t; 
+   return ; 
+   {
+   }
+end
+proc _N(){
+}

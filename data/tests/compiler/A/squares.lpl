@@ -1,0 +1,32 @@
+//100
+//81
+//64
+//49
+//36
+//25
+//16
+//9
+//4
+//1
+//0
+//
+
+begin
+   int maybeSquare;
+   int x;
+   int square;
+
+   maybeSquare = 100;
+   while (0 <= maybeSquare) {
+      x = 0;
+      square = 0;
+      while (!square && (x <= maybeSquare)) {
+         square = (x * x) == maybeSquare;
+         x = x + 1;
+      }
+      if (square) {
+         println maybeSquare;
+      } else {}
+      maybeSquare = maybeSquare - 1;
+   }
+end

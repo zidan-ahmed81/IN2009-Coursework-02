@@ -1,0 +1,15 @@
+// test_50_43.LPL-A
+begin
+   int _R; 
+   int jM; 
+   int T; 
+   printch 411; 
+   print LhTeN3; 
+   while (9084)
+      newline; 
+   switch(e_CxcALg){
+   default : 
+      {
+      }
+   }
+end

@@ -1,0 +1,15 @@
+// test_20_46.LPL-B
+begin
+   {
+   }
+   while (B)
+      {
+      }
+   newline; 
+   {
+   }
+end
+proc Kxu(){
+}
+proc n(){
+}

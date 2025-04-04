@@ -1,0 +1,10 @@
+// test_20_26.LPL-A
+begin
+   int _h; 
+   int _S; 
+   if (6870094)
+      newline; 
+   else 
+      {
+      }
+end

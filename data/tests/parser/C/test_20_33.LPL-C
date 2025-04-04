@@ -1,0 +1,16 @@
+// test_20_33.LPL-C
+begin
+   newline; 
+   newline; 
+   {
+   }
+   if (null)
+      {
+      }
+   else 
+      return ; 
+   newline; 
+   newline; 
+end
+proc v(){
+}

@@ -1,0 +1,8 @@
+// test_10_35.LPL-B
+begin
+   newline; 
+end
+proc XG(){
+}
+proc K8a(){
+}

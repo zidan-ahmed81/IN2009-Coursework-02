@@ -1,0 +1,21 @@
+// Syntax error on or just before line 11
+begin 
+   int yOb5fXi ; 
+   int RO ; 
+   int w ; 
+   int IbY ; 
+   int k_lFheV ; 
+   int q3_ ; 
+   int iFTY ; 
+   { 
+      newline ; ; 
+      { 
+      } 
+      newline ; 
+   } 
+   { 
+   } 
+   newline ; 
+   { 
+   } 
+end 

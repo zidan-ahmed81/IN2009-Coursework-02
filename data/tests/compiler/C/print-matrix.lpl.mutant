@@ -1,0 +1,40 @@
+// 2 3 5
+// 4 6 10
+//
+
+begin
+   int[][] A;
+   int i;
+   int[] row;
+
+   A = new int[2][];
+   i = 0;
+   while (i < A.length) {
+      row = new int[3];
+      A[i] = row;
+      i = i + 1;
+      row[0] = i * 2;
+      row[1] = i * 3;
+      row[2] = i * 5;
+   }
+   printMatrix(A[1]); // type error
+end
+
+proc printMatrix(int[][] A) {
+   int r;
+   int c;
+   int[] row;
+
+   r = 0;
+   while (r < A.length) {
+      row = A[r];
+      c = 0;
+      while (c < row.length) {
+         printch 32;
+         print row[c];
+         c = c + 1;
+      }
+      newline;
+      r = r + 1;
+   }
+}

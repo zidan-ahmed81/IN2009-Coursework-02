@@ -1,0 +1,7 @@
+// test_20_2.LPL-A
+begin
+   int D; 
+   int rkF7; 
+   newline; 
+   newline; 
+end

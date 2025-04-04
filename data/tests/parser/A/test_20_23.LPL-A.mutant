@@ -1,0 +1,11 @@
+// Syntax error on or just before line 11
+begin 
+   int _bKOjo ; 
+   { 
+   } 
+   print _AD ; 
+   print _ZpAGr ; 
+   { 
+   } 
+end 
+end 

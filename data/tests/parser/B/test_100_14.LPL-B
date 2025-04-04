@@ -1,0 +1,29 @@
+// test_100_14.LPL-B
+begin
+int zH9M055$e; 
+int SVw$g2k_; 
+   printch jr; 
+end
+proc _RlTJ(){
+}
+fun int f(){
+int _ylH6vmh1KE; 
+   _$(); 
+   printch 20; 
+}
+proc _z(){
+int zC; 
+}
+proc L9B7(){
+}
+proc _1RH(){
+}
+proc _1Z_i(int _p7j){
+   newline; 
+}
+fun int wFkN(){
+}
+proc _7ye_L(){
+}
+proc _s(){
+}

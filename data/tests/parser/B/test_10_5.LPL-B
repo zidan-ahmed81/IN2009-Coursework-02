@@ -1,0 +1,7 @@
+// test_10_5.LPL-B
+begin
+   {
+   }
+end
+fun int _P(){
+}

@@ -1,0 +1,23 @@
+// test_50_7.LPL-A
+begin
+   int xtTkt; 
+   int j4I5; 
+   int _l; 
+   int _8; 
+   {
+      x = 2; 
+      {
+      }
+      {
+      }
+      {
+      }
+      newline; 
+   }
+   newline; 
+   {
+   }
+   {
+      newline; 
+   }
+end

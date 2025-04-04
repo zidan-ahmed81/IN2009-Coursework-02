@@ -1,0 +1,26 @@
+// Syntax error on or just before line 18
+begin 
+   int tR ; 
+   if ( _WK ) 
+      while ( _y ) 
+         { 
+         } 
+   else 
+      print 318 ; 
+   if ( 5859967 ) 
+      newline ; 
+   else 
+      { 
+      } 
+   { 
+   } 
+   if ( _QUcUK6U ) 
+      if 1 ) 
+         { 
+         } 
+      else 
+         newline ; 
+   else 
+      { 
+      } 
+end 
