@@ -232,17 +232,35 @@ public class LPLParser {
 
     private StmSwitch.Case parseCase() {
         lex.eat("CASE");
-        String sign = "";
+
+        boolean isNegative = false;
         if (lex.tok().isType("MINUS")) {
-            sign = "-";
+            isNegative = true;
             lex.eat("MINUS");
         }
-        String num = lex.tok().image;
+
+        if (!lex.tok().isType("INTLIT")) {
+            throw new ParseException(lex.tok(), "Expected integer literal after CASE (and optional MINUS), but got: " + lex.tok().type + " (" + lex.tok().image + ")");
+        }
+
+        String numText = lex.tok().image;
         lex.eat("INTLIT");
+
+        int value;
+        try {
+            value = Integer.parseInt(numText);
+        } catch (NumberFormatException e) {
+            throw new ParseException(lex.tok(), "Invalid number format in CASE: " + numText);
+        }
+
+        if (isNegative) value = -value;
+
         lex.eat("COLON");
         Stm stm = parseStm();
-        return new StmSwitch.Case(Integer.parseInt(sign + num), stm);
+        return new StmSwitch.Case(value, stm);
     }
+
+
 
     private Exp parseExp() {
         Exp left = parseSimpleExp();
@@ -271,23 +289,41 @@ public class LPLParser {
             lex.next();
             if (lex.tok().isType("LBR")) return parseCall(id);
             return new ExpVar(id);
+
         } else if (lex.tok().isType("INTLIT")) {
-            int value = Integer.parseInt(lex.tok().image);
+            String image = lex.tok().image;
             lex.next();
-            return new ExpInt(value);
+            try {
+                int value = Integer.parseInt(image);
+                return new ExpInt(value);
+            } catch (NumberFormatException e) {
+                throw new ParseException(lex.tok(), "Invalid integer literal: " + image);
+            }
+
         } else if (lex.tok().isType("MINUS")) {
             lex.eat("MINUS");
-            int value = -Integer.parseInt(lex.tok().image);
+            if (!lex.tok().isType("INTLIT")) {
+                throw new ParseException(lex.tok(), "Expected integer after minus sign, got: " + lex.tok().type + " (" + lex.tok().image + ")");
+            }
+            String image = lex.tok().image;
             lex.next();
-            return new ExpInt(value);
+            try {
+                int value = -Integer.parseInt(image);
+                return new ExpInt(value);
+            } catch (NumberFormatException e) {
+                throw new ParseException(lex.tok(), "Invalid negative number: -" + image);
+            }
+
         } else if (lex.tok().isType("NOT")) {
             lex.eat("NOT");
             return new ExpNot(parseSimpleExp());
+
         } else if (lex.tok().isType("LBR")) {
             lex.eat("LBR");
             Exp e = parseExp();
             lex.eat("RBR");
             return e;
+
         } else {
             throw new ParseException(lex.tok(), "Expected expression");
         }
