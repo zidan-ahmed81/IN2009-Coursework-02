@@ -91,7 +91,6 @@ public class LPLParser {
     private VarDecl parseGlobalVarDecl() {
         lex.eat("INT_TYPE");
 
-        // Eat any number of []
         while (lex.tok().isType("LSQBR")) {
             lex.eat("LSQBR");
             lex.eat("RSQBR");
@@ -106,7 +105,6 @@ public class LPLParser {
         String id = lex.tok().image;
         lex.next();
 
-        // Optional: explicit array size like int a[5];
         if (lex.tok().isType("LSQBR")) {
             lex.eat("LSQBR");
             parseExp();
@@ -114,14 +112,17 @@ public class LPLParser {
         }
 
         lex.eat("SEMIC");
-        return new VarDecl(new TypeInt(), id); // Placeholder, treat all as TypeInt
+        return new VarDecl(new TypeInt(), id);
     }
-
 
     private Object parseMethodDecl() {
         if (lex.tok().isType("FUN")) {
             lex.eat("FUN");
             lex.eat("INT_TYPE");
+            while (lex.tok().isType("LSQBR")) {
+                lex.eat("LSQBR");
+                lex.eat("RSQBR");
+            }
         } else if (lex.tok().isType("PROC")) {
             lex.eat("PROC");
         } else if (lex.tok().isType("INT_TYPE")) {
@@ -132,14 +133,20 @@ public class LPLParser {
 
         lex.eat("ID");
         lex.eat("LBR");
+
         if (!lex.tok().isType("RBR")) {
             do {
                 lex.eat("INT_TYPE");
+                while (lex.tok().isType("LSQBR")) {
+                    lex.eat("LSQBR");
+                    lex.eat("RSQBR");
+                }
                 lex.eat("ID");
                 if (!lex.tok().isType("COMMA")) break;
                 lex.eat("COMMA");
             } while (true);
         }
+
         lex.eat("RBR");
         lex.eat("LCBR");
         while (!lex.tok().isType("RCBR")) {
@@ -153,27 +160,13 @@ public class LPLParser {
         if (lex.tok().isType("INT_TYPE")) {
             lex.eat("INT_TYPE");
 
-            if (!lex.tok().isType("ID")) {
-                throw new ParseException(lex.tok(), "Expected ID after INT_TYPE in local declaration, but found: " + lex.tok().type + " (\"" + lex.tok().image + "\")");
-            }
-
-            String id = lex.tok().image;
-            lex.next();
-
-            if (lex.tok().isType("LSQBR")) {
+            while (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
-                parseExp();
                 lex.eat("RSQBR");
             }
 
-            lex.eat("SEMIC");
-            return new StmPrint(new ExpInt(0));
-        }
-        if (lex.tok().isType("INT_TYPE")) {
-            lex.eat("INT_TYPE");
-
             if (!lex.tok().isType("ID")) {
-                throw new ParseException(lex.tok(), "Expected ID after INT_TYPE in local declaration");
+                throw new ParseException(lex.tok(), "Expected ID after INT_TYPE");
             }
 
             String id = lex.tok().image;
@@ -203,19 +196,19 @@ public class LPLParser {
 
                 if (lex.tok().isType("LSQBR")) {
                     lex.eat("LSQBR");
-                    parseExp(); // index
+                    parseExp();
                     lex.eat("RSQBR");
                     lex.eat("ASSIGN");
-                    parseExp(); // value
+                    parseExp();
                     lex.eat("SEMIC");
-                    return new StmPrint(new ExpInt(0)); // placeholder for array assignment
+                    return new StmPrint(new ExpInt(0));
                 }
 
                 if (lex.tok().isType("ASSIGN")) {
                     lex.eat("ASSIGN");
                     parseExp();
                     lex.eat("SEMIC");
-                    return new StmAssign(id, new ExpInt(0)); // placeholder
+                    return new StmAssign(id, new ExpInt(0));
                 }
 
                 if (lex.tok().isType("LBR")) {
@@ -306,26 +299,18 @@ public class LPLParser {
         }
 
         if (!lex.tok().isType("INTLIT")) {
-            throw new ParseException(lex.tok(), "Expected integer literal in CASE label, but got: " + lex.tok().type + " (\"" + lex.tok().image + "\")");
+            throw new ParseException(lex.tok(), "Expected integer literal in CASE label, but got: " + lex.tok().type);
         }
 
         String numText = lex.tok().image;
         lex.eat("INTLIT");
-
-        int value;
-        try {
-            value = Integer.parseInt(numText);
-        } catch (NumberFormatException e) {
-            throw new ParseException(lex.tok(), "Invalid number format in CASE label: " + numText);
-        }
-
+        int value = Integer.parseInt(numText);
         if (isNegative) value = -value;
 
         lex.eat("COLON");
         Stm stm = parseStm();
         return new StmSwitch.Case(value, stm);
     }
-
 
     private Exp parseExp() {
         Exp left = parseSimpleExp();
@@ -349,78 +334,65 @@ public class LPLParser {
     }
 
     private Exp parseSimpleExp() {
+        if (lex.tok().isType("NEW")) {
+            lex.eat("NEW");
+            lex.eat("INT_TYPE");
+            lex.eat("LSQBR");
+            parseExp();
+            lex.eat("RSQBR");
+            return new ExpInt(0); // Placeholder for ExpNewArray
+        }
+
         if (lex.tok().isType("ID")) {
             String id = lex.tok().image;
             lex.next();
 
-            // Handle method call: ID followed by (
-            if (lex.tok().isType("LBR")) {
-                return parseCall(id);
-
-                // Handle array access: ID followed by [
-            } else if (lex.tok().isType("LSQBR")) {
+            if (lex.tok().isType("LBR")) return parseCall(id);
+            if (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
-                parseExp(); // index expression
+                parseExp();
                 lex.eat("RSQBR");
-                return new ExpInt(0); // Placeholder for ExpArrayAccess
+                return new ExpInt(0); // Placeholder for array access
             }
-
-            // Normal variable
             return new ExpVar(id);
         }
 
-        else if (lex.tok().isType("INTLIT")) {
+        if (lex.tok().isType("INTLIT")) {
             String image = lex.tok().image;
             lex.next();
-            try {
-                return new ExpInt(Integer.parseInt(image));
-            } catch (NumberFormatException e) {
-                throw new ParseException(lex.tok(), "Invalid integer literal: " + image);
-            }
+            return new ExpInt(Integer.parseInt(image));
         }
 
-        else if (lex.tok().isType("MINUS")) {
+        if (lex.tok().isType("MINUS")) {
             lex.eat("MINUS");
-            if (!lex.tok().isType("INTLIT")) {
-                throw new ParseException(lex.tok(), "Expected integer after minus sign, got: " + lex.tok().type + " (" + lex.tok().image + ")");
-            }
             String image = lex.tok().image;
             lex.next();
-            try {
-                return new ExpInt(-Integer.parseInt(image));
-            } catch (NumberFormatException e) {
-                throw new ParseException(lex.tok(), "Invalid negative number: -" + image);
-            }
+            return new ExpInt(-Integer.parseInt(image));
         }
 
-        else if (lex.tok().isType("NOT")) {
+        if (lex.tok().isType("NOT")) {
             lex.eat("NOT");
             return new ExpNot(parseSimpleExp());
         }
 
-        else if (lex.tok().isType("LBR")) {
+        if (lex.tok().isType("LBR")) {
             lex.eat("LBR");
             Exp e = parseExp();
             lex.eat("RBR");
             return e;
         }
 
-        else if (lex.tok().isType("NULL")) {
+        if (lex.tok().isType("NULL")) {
             lex.eat("NULL");
-            return new ExpInt(0); // Placeholder for ExpNull
+            return new ExpInt(0);
         }
 
-        else {
-            throw new ParseException(lex.tok(), "Expected expression");
-        }
+        throw new ParseException(lex.tok(), "Expected expression");
     }
-
-
 
     private Exp parseCall(String id) {
         lex.eat("LBR");
         List<Exp> args = new ArrayList<>();
-
         if (!lex.tok().isType("RBR")) {
             do {
                 args.add(parseExp());
@@ -428,12 +400,9 @@ public class LPLParser {
                 lex.eat("COMMA");
             } while (true);
         }
-
         lex.eat("RBR");
-
-        return new ExpInt(0); // Placeholder for ExpCall(id, args)
+        return new ExpInt(0); // Placeholder for function call
     }
-
 
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
