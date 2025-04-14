@@ -91,16 +91,22 @@ public class LPLParser {
     private VarDecl parseGlobalVarDecl() {
         lex.eat("INT_TYPE");
 
-        if (!lex.tok().isType("ID")) {
-            throw new ParseException(lex.tok(), "Expected ID after INT_TYPE in global declaration, but found: " + lex.tok().type + " (\"" + lex.tok().image + "\")");
+        // Eat any number of []
+        while (lex.tok().isType("LSQBR")) {
+            lex.eat("LSQBR");
+            lex.eat("RSQBR");
         }
-        lex.eat("INT_TYPE");
+
         if (!lex.tok().isType("ID")) {
-            throw new ParseException(lex.tok(), "Expected ID after INT_TYPE in global declaration");
+            throw new ParseException(lex.tok(),
+                    "Expected ID after INT_TYPE and brackets in global declaration, but found: " +
+                            lex.tok().type + " (\"" + lex.tok().image + "\")");
         }
+
         String id = lex.tok().image;
         lex.next();
 
+        // Optional: explicit array size like int a[5];
         if (lex.tok().isType("LSQBR")) {
             lex.eat("LSQBR");
             parseExp();
@@ -108,8 +114,9 @@ public class LPLParser {
         }
 
         lex.eat("SEMIC");
-        return new VarDecl(new TypeInt(), id);
+        return new VarDecl(new TypeInt(), id); // Placeholder, treat all as TypeInt
     }
+
 
     private Object parseMethodDecl() {
         if (lex.tok().isType("FUN")) {
@@ -353,9 +360,9 @@ public class LPLParser {
                 // Handle array access: ID followed by [
             } else if (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
-                parseExp(); // parse the index expression
+                parseExp(); // index expression
                 lex.eat("RSQBR");
-                return new ExpInt(0); // placeholder for ExpArrayAccess(id, index)
+                return new ExpInt(0); // Placeholder for ExpArrayAccess
             }
 
             // Normal variable
@@ -366,8 +373,7 @@ public class LPLParser {
             String image = lex.tok().image;
             lex.next();
             try {
-                int value = Integer.parseInt(image);
-                return new ExpInt(value);
+                return new ExpInt(Integer.parseInt(image));
             } catch (NumberFormatException e) {
                 throw new ParseException(lex.tok(), "Invalid integer literal: " + image);
             }
@@ -381,8 +387,7 @@ public class LPLParser {
             String image = lex.tok().image;
             lex.next();
             try {
-                int value = -Integer.parseInt(image);
-                return new ExpInt(value);
+                return new ExpInt(-Integer.parseInt(image));
             } catch (NumberFormatException e) {
                 throw new ParseException(lex.tok(), "Invalid negative number: -" + image);
             }
@@ -400,10 +405,16 @@ public class LPLParser {
             return e;
         }
 
+        else if (lex.tok().isType("NULL")) {
+            lex.eat("NULL");
+            return new ExpInt(0); // Placeholder for ExpNull
+        }
+
         else {
             throw new ParseException(lex.tok(), "Expected expression");
         }
     }
+
 
 
     private Exp parseCall(String id) {
