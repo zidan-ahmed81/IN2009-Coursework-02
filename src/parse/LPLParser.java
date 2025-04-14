@@ -119,6 +119,7 @@ public class LPLParser {
         if (lex.tok().isType("FUN")) {
             lex.eat("FUN");
             lex.eat("INT_TYPE");
+            // Support multi-dimensional return type: int[][]...
             while (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
                 lex.eat("RSQBR");
@@ -131,30 +132,37 @@ public class LPLParser {
             throw new ParseException(lex.tok(), "Expected FUN, PROC, or INT_TYPE method declaration");
         }
 
-        lex.eat("ID");
-        lex.eat("LBR");
+        lex.eat("ID");     // method name
+        lex.eat("LBR");    // (
 
+        // Parse parameter list
         if (!lex.tok().isType("RBR")) {
             do {
                 lex.eat("INT_TYPE");
+                // Optional [] brackets for array parameters
                 while (lex.tok().isType("LSQBR")) {
                     lex.eat("LSQBR");
                     lex.eat("RSQBR");
                 }
                 lex.eat("ID");
+
                 if (!lex.tok().isType("COMMA")) break;
                 lex.eat("COMMA");
             } while (true);
         }
 
-        lex.eat("RBR");
-        lex.eat("LCBR");
+        lex.eat("RBR");    // )
+        lex.eat("LCBR");   // {
+
         while (!lex.tok().isType("RCBR")) {
             parseStm();
         }
-        lex.eat("RCBR");
-        return null;
+
+        lex.eat("RCBR");   // }
+
+        return null; // Placeholder — not used for parse tests
     }
+
 
     private Stm parseStm() {
         if (lex.tok().isType("INT_TYPE")) {
