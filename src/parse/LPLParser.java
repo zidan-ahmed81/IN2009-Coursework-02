@@ -194,30 +194,29 @@ public class LPLParser {
                 String id = lex.tok().image;
                 lex.next();
 
-                if (lex.tok().isType("LSQBR")) {
+                // Handle multi-dimensional array assignment
+                boolean isArrayAccess = false;
+                while (lex.tok().isType("LSQBR")) {
                     lex.eat("LSQBR");
                     parseExp();
                     lex.eat("RSQBR");
-                    lex.eat("ASSIGN");
-                    parseExp();
-                    lex.eat("SEMIC");
-                    return new StmPrint(new ExpInt(0));
+                    isArrayAccess = true;
                 }
 
                 if (lex.tok().isType("ASSIGN")) {
                     lex.eat("ASSIGN");
                     parseExp();
                     lex.eat("SEMIC");
-                    return new StmAssign(id, new ExpInt(0));
+                    return new StmPrint(new ExpInt(0)); // Placeholder
                 }
 
-                if (lex.tok().isType("LBR")) {
+                if (!isArrayAccess && lex.tok().isType("LBR")) {
                     parseCall(id);
                     lex.eat("SEMIC");
                     return new StmPrint(new ExpInt(0));
                 }
 
-                throw new ParseException(lex.tok(), "Expected ASSIGN, LSQBR or LBR after ID");
+                throw new ParseException(lex.tok(), "Expected ASSIGN or LBR after ID");
 
             case "RETURN":
                 lex.eat("RETURN");
@@ -289,6 +288,7 @@ public class LPLParser {
         }
     }
 
+
     private StmSwitch.Case parseCase() {
         lex.eat("CASE");
 
@@ -334,7 +334,7 @@ public class LPLParser {
     }
 
     private Exp parseSimpleExp() {
-        // Handle new int[expr][][]...
+        // new int[expr][][]...
         if (lex.tok().isType("NEW")) {
             lex.eat("NEW");
             lex.eat("INT_TYPE");
@@ -343,41 +343,44 @@ public class LPLParser {
             parseExp();
             lex.eat("RSQBR");
 
-            // Allow optional trailing [] for multi-dimensional arrays
             while (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
                 lex.eat("RSQBR");
             }
 
-            return new ExpInt(0); // Placeholder for ExpNewArray
+            return new ExpInt(0);
         }
 
-        // Handle identifiers: variables, function calls, array access
         if (lex.tok().isType("ID")) {
             String id = lex.tok().image;
             lex.next();
 
-            // Function call
             if (lex.tok().isType("LBR")) return parseCall(id);
 
-            // Multi-dimensional array access: a[b][c][d]
             while (lex.tok().isType("LSQBR")) {
                 lex.eat("LSQBR");
                 parseExp();
                 lex.eat("RSQBR");
             }
 
+            // Optional: .length after array access
+            if (lex.tok().isType("DOT")) {
+                lex.eat("DOT");
+                if (!lex.tok().image.equals("length")) {
+                    throw new ParseException(lex.tok(), "Expected 'length' after '.'");
+                }
+                lex.next();
+            }
+
             return new ExpVar(id);
         }
 
-        // Handle integer literals safely
         if (lex.tok().isType("INTLIT")) {
             String image = lex.tok().image;
             lex.next();
             return new ExpInt(safeParseInt(image));
         }
 
-        // Handle negative integers
         if (lex.tok().isType("MINUS")) {
             lex.eat("MINUS");
             String image = lex.tok().image;
@@ -385,13 +388,11 @@ public class LPLParser {
             return new ExpInt(-safeParseInt(image));
         }
 
-        // Handle NOT (!expr)
         if (lex.tok().isType("NOT")) {
             lex.eat("NOT");
             return new ExpNot(parseSimpleExp());
         }
 
-        // Handle (expr)
         if (lex.tok().isType("LBR")) {
             lex.eat("LBR");
             Exp e = parseExp();
@@ -399,14 +400,14 @@ public class LPLParser {
             return e;
         }
 
-        // Handle null
         if (lex.tok().isType("NULL")) {
             lex.eat("NULL");
-            return new ExpInt(0); // Placeholder for ExpNull
+            return new ExpInt(0);
         }
 
         throw new ParseException(lex.tok(), "Expected expression");
     }
+
 
     private int safeParseInt(String image) {
         try {
